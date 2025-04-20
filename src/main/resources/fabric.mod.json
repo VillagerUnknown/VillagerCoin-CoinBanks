@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "villagerunknown-coinbanks",
+  "version": "${version}",
+  "name": "VillagerUnknown's Coin Banks for Villager Coin",
+  "description": "Adds various Coin Banks to Villager Coin that can only hold Villager Coins.",
+  "authors": ["VillagerUnknown"],
+  "contact": {
+    "homepage":"https://github.com/VillagerUnknown",
+    "sources":"https://github.com/VillagerUnknown/VillagerCoin-CoinBanks",
+    "issues":"https://github.com/VillagerUnknown/VillagerCoin-CoinBanks/issues"
+  },
+  "license": "CC-BY-4.0",
+  "icon": "assets/coinbanks/villagerunknown-coin-banks.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.villagerunknown.coinbanks.client.CoinbanksClient"
+    ],
+    "main": [
+      "me.villagerunknown.coinbanks.Coinbanks"
+    ],
+    "modmenu": [
+      "me.villagerunknown.coinbanks.client.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "coinbanks.mixins.json",
+    {
+      "config": "coinbanks.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "villagerunknown-platform": ">=1.2.0",
+    "villagerunknown-villagercoin": ">=1.0.3"
+  }
+}

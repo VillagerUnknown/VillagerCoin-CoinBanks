@@ -1,0 +1,33 @@
+{
+
+  "text.autoconfig.villagerunknown-coinbanks.title": "VillagerUnknown's Coin Banks for Villager Coin",
+
+  "text.autoconfig.villagerunknown-coinbanks.category.General": "General",
+
+  "text.autoconfig.villagerunknown-coinbanks.option.enableTheUnknown": "Enable The Unknown",
+
+  "tag.item.villagerunknown-villagercoin.coin_bank": "Coin Bank",
+
+  "block.villagerunknown-villagercoin.terracotta_coin_bank": "Coin Pot",
+  "block.villagerunknown-villagercoin.white_terracotta_coin_bank": "White Coin Pot",
+  "block.villagerunknown-villagercoin.orange_terracotta_coin_bank": "Orange Coin Pot",
+  "block.villagerunknown-villagercoin.magenta_terracotta_coin_bank": "Magenta Coin Pot",
+  "block.villagerunknown-villagercoin.light_blue_terracotta_coin_bank": "Light Blue Coin Pot",
+  "block.villagerunknown-villagercoin.yellow_terracotta_coin_bank": "Yellow Coin Pot",
+  "block.villagerunknown-villagercoin.lime_terracotta_coin_bank": "Lime Coin Pot",
+  "block.villagerunknown-villagercoin.pink_terracotta_coin_bank": "Pink Coin Pot",
+  "block.villagerunknown-villagercoin.gray_terracotta_coin_bank": "Gray Coin Pot",
+  "block.villagerunknown-villagercoin.light_gray_terracotta_coin_bank": "Light Gray Coin Pot",
+  "block.villagerunknown-villagercoin.cyan_terracotta_coin_bank": "Cyan Coin Pot",
+  "block.villagerunknown-villagercoin.purple_terracotta_coin_bank": "Purple Coin Pot",
+  "block.villagerunknown-villagercoin.blue_terracotta_coin_bank": "Blue Coin Pot",
+  "block.villagerunknown-villagercoin.brown_terracotta_coin_bank": "Brown Coin Pot",
+  "block.villagerunknown-villagercoin.green_terracotta_coin_bank": "Green Coin Pot",
+  "block.villagerunknown-villagercoin.red_terracotta_coin_bank": "Red Coin Pot",
+  "block.villagerunknown-villagercoin.black_terracotta_coin_bank": "Black Coin Pot",
+
+  "block.villagerunknown-villagercoin.cold_piggy_bank": "Cold Piggy Bank",
+  "block.villagerunknown-villagercoin.temperate_piggy_bank": "Temperate Piggy Bank",
+  "block.villagerunknown-villagercoin.warm_piggy_bank": "Warm Piggy Bank"
+
+}

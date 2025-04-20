@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:green_terracotta"
+    },
+    "C": {
+      "tag": "villagerunknown-villagercoin:villager_coin"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#C#",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "villagerunknown-villagercoin:green_terracotta_coin_bank"
+  }
+}

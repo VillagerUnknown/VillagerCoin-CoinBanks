@@ -1,0 +1,7 @@
+{
+	"parent": "villagerunknown-villagercoin:block/piggy_bank",
+	"textures": {
+		"0": "villagerunknown-villagercoin:block/warm_piggy_bank",
+		"particle": "villagerunknown-villagercoin:block/warm_piggy_bank"
+	}
+}
