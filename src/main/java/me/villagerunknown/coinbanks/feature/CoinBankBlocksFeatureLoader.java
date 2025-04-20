@@ -23,6 +23,7 @@ public class CoinBankBlocksFeatureLoader {
 		BlockEntityType.Builder<CoinBankBlockEntity> builder = BlockEntityType.Builder.create(
 				CoinBankBlockEntity::new,
 				CoinBankBlocks.TERRACOTTA_COIN_BANK,
+				CoinBankBlocks.WHITE_TERRACOTTA_COIN_BANK,
 				CoinBankBlocks.ORANGE_TERRACOTTA_COIN_BANK,
 				CoinBankBlocks.MAGENTA_TERRACOTTA_COIN_BANK,
 				CoinBankBlocks.LIGHT_BLUE_TERRACOTTA_COIN_BANK,

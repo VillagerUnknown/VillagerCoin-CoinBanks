@@ -47,7 +47,7 @@ public class JarCoinBankBlock extends CoinBankBlock {
 			if( null != server ) {
 				ServerWorld serverWorld = server.getWorld(world.getRegistryKey());
 				if( null != serverWorld ) {
-					serverWorld.spawnParticles(ParticleTypes.DUST_PLUME, (double) pos.getX() + (double) 0.5F, (double) pos.getY() + 0.5, (double) pos.getZ() + (double) 0.5F, 7, (double) 0.0F, (double) 0.0F, (double) 0.0F, (double) 0.0F);
+					serverWorld.spawnParticles(ParticleTypes.DUST_PLUME, (double) pos.getX() + (double) 0.5F, (double) pos.getY() + 0.6, (double) pos.getZ() + (double) 0.5F, 7, (double) 0.0F, (double) 0.0F, (double) 0.0F, (double) 0.0F);
 				} // if
 			} // if
 		} // if
