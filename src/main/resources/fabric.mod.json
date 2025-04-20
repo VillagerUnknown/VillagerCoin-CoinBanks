@@ -3,7 +3,7 @@
   "id": "villagerunknown-coinbanks",
   "version": "${version}",
   "name": "VillagerUnknown's Coin Banks for Villager Coin",
-  "description": "Adds various Coin Banks to Villager Coin that can only hold Villager Coins.",
+  "description": "Adds various Coin Banks to Villager Coin that hold the total value of the coins added.",
   "authors": ["VillagerUnknown"],
   "contact": {
     "homepage":"https://github.com/VillagerUnknown",
