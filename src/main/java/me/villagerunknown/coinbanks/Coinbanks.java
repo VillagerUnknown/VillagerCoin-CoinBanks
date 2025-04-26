@@ -25,6 +25,6 @@ public class Coinbanks implements ModInitializer {
 		
 		// # Activate Features
 		featureManager.addFeature( "CoinBankBlocksFeature", CoinBankBlocksFeatureLoader::execute );
-	}	
+	}
 	
 }

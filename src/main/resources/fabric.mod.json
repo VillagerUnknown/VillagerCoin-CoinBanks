@@ -36,6 +36,6 @@
     "fabric": "*",
     "minecraft": "${minecraft_version}",
     "villagerunknown-platform": ">=1.2.0",
-    "villagerunknown-villagercoin": ">=1.0.3"
+    "villagerunknown-villagercoin": ">=1.0.5"
   }
 }
