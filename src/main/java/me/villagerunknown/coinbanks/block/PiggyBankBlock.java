@@ -1,27 +1,24 @@
 package me.villagerunknown.coinbanks.block;
 
 import com.google.common.collect.ImmutableMap;
-import com.mojang.serialization.MapCodec;
-import me.villagerunknown.coinbanks.Coinbanks;
-import me.villagerunknown.coinbanks.block.entity.CoinBankBlockEntity;
-import me.villagerunknown.villagercoin.block.AbstractCoinBankBlock;
-import me.villagerunknown.villagercoin.feature.CoinFeature;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.ShapeContext;
-import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.particle.ParticleTypes;
+import net.minecraft.particle.SimpleParticleType;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.DirectionProperty;
 import net.minecraft.state.property.Properties;
 import net.minecraft.state.property.Property;
+import net.minecraft.util.BlockMirror;
+import net.minecraft.util.BlockRotation;
 import net.minecraft.util.Hand;
 import net.minecraft.util.ItemActionResult;
 import net.minecraft.util.hit.BlockHitResult;
@@ -59,7 +56,13 @@ public class PiggyBankBlock extends CoinBankBlock {
 			if( null != server ) {
 				ServerWorld serverWorld = server.getWorld(world.getRegistryKey());
 				if( null != serverWorld ) {
-					serverWorld.spawnParticles(ParticleTypes.DUST_PLUME, (double) pos.getX() + (double) 0.5F, (double) pos.getY() + 0.5, (double) pos.getZ() + (double) 0.5F, 7, (double) 0.0F, (double) 0.0F, (double) 0.0F, (double) 0.0F);
+					SimpleParticleType particleType = ParticleTypes.DUST_PLUME;
+					
+					if( state.get(WATERLOGGED) ) {
+						particleType = ParticleTypes.BUBBLE;
+					} // if
+					
+					serverWorld.spawnParticles(particleType, (double) pos.getX() + (double) 0.5F, (double) pos.getY() + 0.6, (double) pos.getZ() + (double) 0.5F, 7, (double) 0.0F, (double) 0.0F, (double) 0.0F, (double) 0.0F);
 				} // if
 			} // if
 		} // if
@@ -90,6 +93,16 @@ public class PiggyBankBlock extends CoinBankBlock {
 			return shape;
 		}
 		return SHAPE_EAST;
+	}
+	
+	@Override
+	protected BlockState rotate(BlockState state, BlockRotation rotation) {
+		return state.with(FACING, rotation.rotate(state.get(FACING)));
+	}
+	
+	@Override
+	protected BlockState mirror(BlockState state, BlockMirror mirror) {
+		return state.rotate(mirror.getRotation(state.get(FACING)));
 	}
 	
 	public BlockState getPlacementState(ItemPlacementContext ctx) {
