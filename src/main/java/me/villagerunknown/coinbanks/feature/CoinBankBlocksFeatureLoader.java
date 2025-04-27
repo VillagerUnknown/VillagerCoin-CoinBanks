@@ -5,7 +5,7 @@ import me.villagerunknown.coinbanks.block.PiggyBankBlock;
 import me.villagerunknown.coinbanks.block.entity.CoinBankBlockEntity;
 import me.villagerunknown.coinbanks.block.CoinBankBlock;
 import me.villagerunknown.coinbanks.block.CoinBankBlocks;
-import me.villagerunknown.villagercoin.block.entity.AbstractCoinBankBlockEntity;
+import me.villagerunknown.villagercoin.block.entity.AbstractCurrencyValueBlockEntity;
 import me.villagerunknown.villagercoin.feature.CoinBankBlocksFeature;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -19,7 +19,7 @@ public class CoinBankBlocksFeatureLoader {
 		new CoinBankBlocks();
 	}
 	
-	private static BlockEntityType<? extends AbstractCoinBankBlockEntity> registerCoinBankBlockEntities() {
+	private static BlockEntityType<? extends AbstractCurrencyValueBlockEntity> registerCoinBankBlockEntities() {
 		BlockEntityType.Builder<CoinBankBlockEntity> builder = BlockEntityType.Builder.create(
 				CoinBankBlockEntity::new,
 				CoinBankBlocks.TERRACOTTA_COIN_BANK,
@@ -41,7 +41,9 @@ public class CoinBankBlocksFeatureLoader {
 				CoinBankBlocks.BLACK_TERRACOTTA_COIN_BANK,
 				CoinBankBlocks.COLD_PIGGY_BANK_BLOCK,
 				CoinBankBlocks.TEMPERATE_PIGGY_BANK_BLOCK,
-				CoinBankBlocks.WARM_PIGGY_BANK_BLOCK
+				CoinBankBlocks.WARM_PIGGY_BANK_BLOCK,
+				CoinBankBlocks.PIGLIN_BANK_BLOCK,
+				CoinBankBlocks.ZOMBIFIED_PIGLIN_BANK_BLOCK
 		);
 		
 		return CoinBankBlocksFeature.registerCoinBankBlockEntities( builder );

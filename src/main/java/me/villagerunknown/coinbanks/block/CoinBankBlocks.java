@@ -27,6 +27,9 @@ public class CoinBankBlocks {
 	public static final Block TEMPERATE_PIGGY_BANK_BLOCK;
 	public static final Block WARM_PIGGY_BANK_BLOCK;
 	
+	public static final Block PIGLIN_BANK_BLOCK;
+	public static final Block ZOMBIFIED_PIGLIN_BANK_BLOCK;
+	
 	public CoinBankBlocks(){}
 	
 	static{
@@ -51,6 +54,9 @@ public class CoinBankBlocks {
 		COLD_PIGGY_BANK_BLOCK = CoinBankBlocksFeatureLoader.registerPiggyBankBlock( "cold_piggy_bank" );
 		TEMPERATE_PIGGY_BANK_BLOCK = CoinBankBlocksFeatureLoader.registerPiggyBankBlock( "temperate_piggy_bank" );
 		WARM_PIGGY_BANK_BLOCK = CoinBankBlocksFeatureLoader.registerPiggyBankBlock( "warm_piggy_bank" );
+		
+		PIGLIN_BANK_BLOCK = CoinBankBlocksFeatureLoader.registerPiggyBankBlock( "piglin_bank" );
+		ZOMBIFIED_PIGLIN_BANK_BLOCK = CoinBankBlocksFeatureLoader.registerPiggyBankBlock( "zombified_piglin_bank" );
 	}
 
 }

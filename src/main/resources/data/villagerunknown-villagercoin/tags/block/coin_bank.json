@@ -19,6 +19,9 @@
 
     "villagerunknown-villagercoin:cold_piggy_bank",
     "villagerunknown-villagercoin:temperate_piggy_bank",
-    "villagerunknown-villagercoin:warm_piggy_bank"
+    "villagerunknown-villagercoin:warm_piggy_bank",
+
+    "villagerunknown-villagercoin:piglin_bank",
+    "villagerunknown-villagercoin:zombified_piglin_bank"
   ]
 }

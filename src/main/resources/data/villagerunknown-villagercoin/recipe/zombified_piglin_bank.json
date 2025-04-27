@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:gold_nugget"
+    },
+    "D": {
+      "item": "minecraft:leather"
+    },
+    "C": {
+      "tag": "villagerunknown-villagercoin:villager_coin"
+    }
+  },
+  "pattern": [
+    "D#D",
+    "#C#",
+    "D#D"
+  ],
+  "result": {
+    "count": 1,
+    "id": "villagerunknown-villagercoin:zombified_piglin_bank"
+  }
+}
