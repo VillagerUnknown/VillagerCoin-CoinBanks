@@ -1,0 +1,7 @@
+{
+	"parent": "villagerunknown-villagercoin:block/piglin_bank",
+	"textures": {
+		"0": "villagerunknown-villagercoin:block/zombified_piglin_bank",
+		"particle": "villagerunknown-villagercoin:block/zombified_piglin_bank"
+	}
+}

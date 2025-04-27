@@ -41,7 +41,9 @@ public class CoinBankBlocksFeatureLoader {
 				CoinBankBlocks.BLACK_TERRACOTTA_COIN_BANK,
 				CoinBankBlocks.COLD_PIGGY_BANK_BLOCK,
 				CoinBankBlocks.TEMPERATE_PIGGY_BANK_BLOCK,
-				CoinBankBlocks.WARM_PIGGY_BANK_BLOCK
+				CoinBankBlocks.WARM_PIGGY_BANK_BLOCK,
+				CoinBankBlocks.PIGLIN_BANK_BLOCK,
+				CoinBankBlocks.ZOMBIFIED_PIGLIN_BANK_BLOCK
 		);
 		
 		return CoinBankBlocksFeature.registerCoinBankBlockEntities( builder );

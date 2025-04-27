@@ -28,6 +28,8 @@
 
   "block.villagerunknown-villagercoin.cold_piggy_bank": "Cold Piggy Bank",
   "block.villagerunknown-villagercoin.temperate_piggy_bank": "Temperate Piggy Bank",
-  "block.villagerunknown-villagercoin.warm_piggy_bank": "Warm Piggy Bank"
+  "block.villagerunknown-villagercoin.warm_piggy_bank": "Warm Piggy Bank",
 
+  "block.villagerunknown-villagercoin.piglin_bank": "Piglin Bank",
+  "block.villagerunknown-villagercoin.zombified_piglin_bank": "Zombified Piglin Bank"
 }

@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 ## [1.0.1]
 
+### Added
+
+- Added Piglin and Zombified Piglin Coin Banks.
+
 ### Changed
 
 - Changed extending class for `CoinBankBlockEntity` to `AbstractCollectionValueBlockEntity`. 
