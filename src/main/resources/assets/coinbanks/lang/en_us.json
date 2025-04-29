@@ -31,5 +31,22 @@
   "block.villagerunknown-villagercoin.warm_piggy_bank": "Warm Piggy Bank",
 
   "block.villagerunknown-villagercoin.piglin_bank": "Piglin Bank",
-  "block.villagerunknown-villagercoin.zombified_piglin_bank": "Zombified Piglin Bank"
+  "block.villagerunknown-villagercoin.zombified_piglin_bank": "Zombified Piglin Bank",
+
+  "block.villagerunknown-villagercoin.white_sheep_bank": "White Sheep Bank",
+  "block.villagerunknown-villagercoin.orange_sheep_bank": "Orange Sheep Bank",
+  "block.villagerunknown-villagercoin.magenta_sheep_bank": "Magenta Sheep Bank",
+  "block.villagerunknown-villagercoin.light_blue_sheep_bank": "Light Blue Sheep Bank",
+  "block.villagerunknown-villagercoin.yellow_sheep_bank": "Yellow Sheep Bank",
+  "block.villagerunknown-villagercoin.lime_sheep_bank": "Lime Sheep Bank",
+  "block.villagerunknown-villagercoin.pink_sheep_bank": "Pink Sheep Bank",
+  "block.villagerunknown-villagercoin.gray_sheep_bank": "Gray Sheep Bank",
+  "block.villagerunknown-villagercoin.light_gray_sheep_bank": "Light Gray Sheep Bank",
+  "block.villagerunknown-villagercoin.cyan_sheep_bank": "Cyan Sheep Bank",
+  "block.villagerunknown-villagercoin.purple_sheep_bank": "Purple Sheep Bank",
+  "block.villagerunknown-villagercoin.blue_sheep_bank": "Blue Sheep Bank",
+  "block.villagerunknown-villagercoin.brown_sheep_bank": "Brown Sheep Bank",
+  "block.villagerunknown-villagercoin.green_sheep_bank": "Green Sheep Bank",
+  "block.villagerunknown-villagercoin.red_sheep_bank": "Red Sheep Bank",
+  "block.villagerunknown-villagercoin.black_sheep_bank": "Black Sheep Bank"
 }

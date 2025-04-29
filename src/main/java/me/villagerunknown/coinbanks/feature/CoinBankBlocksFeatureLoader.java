@@ -1,10 +1,7 @@
 package me.villagerunknown.coinbanks.feature;
 
-import me.villagerunknown.coinbanks.block.JarCoinBankBlock;
-import me.villagerunknown.coinbanks.block.PiggyBankBlock;
+import me.villagerunknown.coinbanks.block.*;
 import me.villagerunknown.coinbanks.block.entity.CoinBankBlockEntity;
-import me.villagerunknown.coinbanks.block.CoinBankBlock;
-import me.villagerunknown.coinbanks.block.CoinBankBlocks;
 import me.villagerunknown.villagercoin.block.entity.AbstractCurrencyValueBlockEntity;
 import me.villagerunknown.villagercoin.feature.CoinBankBlocksFeature;
 import net.minecraft.block.AbstractBlock;
@@ -43,7 +40,23 @@ public class CoinBankBlocksFeatureLoader {
 				CoinBankBlocks.TEMPERATE_PIGGY_BANK_BLOCK,
 				CoinBankBlocks.WARM_PIGGY_BANK_BLOCK,
 				CoinBankBlocks.PIGLIN_BANK_BLOCK,
-				CoinBankBlocks.ZOMBIFIED_PIGLIN_BANK_BLOCK
+				CoinBankBlocks.ZOMBIFIED_PIGLIN_BANK_BLOCK,
+				CoinBankBlocks.WHITE_SHEEP_BANK_BLOCK,
+				CoinBankBlocks.ORANGE_SHEEP_BANK_BLOCK,
+				CoinBankBlocks.MAGENTA_SHEEP_BANK_BLOCK,
+				CoinBankBlocks.LIGHT_BLUE_SHEEP_BANK_BLOCK,
+				CoinBankBlocks.YELLOW_SHEEP_BANK_BLOCK,
+				CoinBankBlocks.LIME_SHEEP_BANK_BLOCK,
+				CoinBankBlocks.PINK_SHEEP_BANK_BLOCK,
+				CoinBankBlocks.GRAY_SHEEP_BANK_BLOCK,
+				CoinBankBlocks.LIGHT_GRAY_SHEEP_BANK_BLOCK,
+				CoinBankBlocks.CYAN_SHEEP_BANK_BLOCK,
+				CoinBankBlocks.PURPLE_SHEEP_BANK_BLOCK,
+				CoinBankBlocks.BLUE_SHEEP_BANK_BLOCK,
+				CoinBankBlocks.BROWN_SHEEP_BANK_BLOCK,
+				CoinBankBlocks.GREEN_SHEEP_BANK_BLOCK,
+				CoinBankBlocks.RED_SHEEP_BANK_BLOCK,
+				CoinBankBlocks.BLACK_SHEEP_BANK_BLOCK
 		);
 		
 		return CoinBankBlocksFeature.registerCoinBankBlockEntities( builder );
@@ -59,6 +72,10 @@ public class CoinBankBlocksFeatureLoader {
 	
 	public static Block registerPiggyBankBlock( String id ) {
 		return CoinBankBlocksFeature.registerCoinBankBlock( id, new PiggyBankBlock( AbstractBlock.Settings.create() ) );
+	}
+	
+	public static Block registerSheepBankBlock( String id ) {
+		return CoinBankBlocksFeature.registerCoinBankBlock( id, new SheepBankBlock( AbstractBlock.Settings.create() ) );
 	}
 	
 }

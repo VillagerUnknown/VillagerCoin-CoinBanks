@@ -10,9 +10,10 @@ If broken without silk touch, the bank breaks and the total value of the bank dr
 
 ## Features
 
-* Adds 17 colors of craftable Coin Pots.
 * Adds 3 types of craftable Piggy Banks: Cold, Temperate, and Warm.
 * Adds 2 types of craftable Piglin Banks: Piglin and Zombified Piglin.
+* Adds 16 colors of craftable Sheep Banks.
+* Adds 17 colors of craftable Coin Pots.
 
 ## Support
 

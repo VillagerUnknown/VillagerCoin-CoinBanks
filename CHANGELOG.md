@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.2]
+
+### Added
+
+- Added 16 colors of Sheep Coin Banks.
+
 ## [1.0.1]
 
 ### Added

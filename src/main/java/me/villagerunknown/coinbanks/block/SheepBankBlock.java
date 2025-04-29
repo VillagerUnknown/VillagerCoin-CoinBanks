@@ -34,7 +34,7 @@ import net.minecraft.world.World;
 import java.util.HashMap;
 import java.util.function.Function;
 
-public class PiggyBankBlock extends CoinBankBlock {
+public class SheepBankBlock extends CoinBankBlock {
 	
 	protected static final VoxelShape SHAPE_NORTH = Block.createCuboidShape(1.0, 0.0, 5.0, 15.0, 8.0, 11.0);
 	protected static final VoxelShape SHAPE_EAST = Block.createCuboidShape(5.0, 0.0, 1.0, 11.0, 8.0, 15.0);
@@ -43,7 +43,7 @@ public class PiggyBankBlock extends CoinBankBlock {
 	
 	public static final DirectionProperty FACING;
 	
-	public PiggyBankBlock(Settings settings) {
+	public SheepBankBlock(Settings settings) {
 		super(
 				settings
 						.nonOpaque()
