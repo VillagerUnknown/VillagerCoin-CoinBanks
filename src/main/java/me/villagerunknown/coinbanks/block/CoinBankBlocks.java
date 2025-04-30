@@ -51,6 +51,9 @@ public class CoinBankBlocks {
 	public static final Block RED_MOOSHROOM_BANK_BLOCK;
 	public static final Block BROWN_MOOSHROOM_BANK_BLOCK;
 	
+	public static final Block BEE_BANK_BLOCK;
+	public static final Block ANGRY_BEE_BANK_BLOCK;
+	
 	public CoinBankBlocks(){}
 	
 	static{
@@ -99,6 +102,9 @@ public class CoinBankBlocks {
 		COW_BANK_BLOCK = CoinBankBlocksFeatureLoader.registerCowBankBlock( "cow_bank" );
 		RED_MOOSHROOM_BANK_BLOCK = CoinBankBlocksFeatureLoader.registerCowBankBlock( "red_mooshroom_bank" );
 		BROWN_MOOSHROOM_BANK_BLOCK = CoinBankBlocksFeatureLoader.registerCowBankBlock( "brown_mooshroom_bank" );
+		
+		BEE_BANK_BLOCK = CoinBankBlocksFeatureLoader.registerBeeBankBlock( "bee_bank" );
+		ANGRY_BEE_BANK_BLOCK = CoinBankBlocksFeatureLoader.registerBeeBankBlock( "angry_bee_bank" );
 	}
 
 }

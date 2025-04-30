@@ -52,5 +52,8 @@
 
   "block.villagerunknown-villagercoin.cow_bank": "Cow Coin Bank",
   "block.villagerunknown-villagercoin.red_mooshroom_bank": "Red Mooshroom Coin Bank",
-  "block.villagerunknown-villagercoin.brown_mooshroom_bank": "Brown Mooshroom Coin Bank"
+  "block.villagerunknown-villagercoin.brown_mooshroom_bank": "Brown Mooshroom Coin Bank",
+
+  "block.villagerunknown-villagercoin.bee_bank": "Bee Coin Bank",
+  "block.villagerunknown-villagercoin.angry_bee_bank": "Angry Bee Coin Bank"
 }
