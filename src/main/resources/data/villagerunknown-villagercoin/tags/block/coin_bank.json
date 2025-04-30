@@ -38,6 +38,10 @@
     "villagerunknown-villagercoin:brown_sheep_bank",
     "villagerunknown-villagercoin:green_sheep_bank",
     "villagerunknown-villagercoin:red_sheep_bank",
-    "villagerunknown-villagercoin:black_sheep_bank"
+    "villagerunknown-villagercoin:black_sheep_bank",
+
+    "villagerunknown-villagercoin:cow_bank",
+    "villagerunknown-villagercoin:red_mooshroom_bank",
+    "villagerunknown-villagercoin:brown_mooshroom_bank"
   ]
 }

@@ -56,7 +56,10 @@ public class CoinBankBlocksFeatureLoader {
 				CoinBankBlocks.BROWN_SHEEP_BANK_BLOCK,
 				CoinBankBlocks.GREEN_SHEEP_BANK_BLOCK,
 				CoinBankBlocks.RED_SHEEP_BANK_BLOCK,
-				CoinBankBlocks.BLACK_SHEEP_BANK_BLOCK
+				CoinBankBlocks.BLACK_SHEEP_BANK_BLOCK,
+				CoinBankBlocks.COW_BANK_BLOCK,
+				CoinBankBlocks.RED_MOOSHROOM_BANK_BLOCK,
+				CoinBankBlocks.BROWN_MOOSHROOM_BANK_BLOCK
 		);
 		
 		return CoinBankBlocksFeature.registerCoinBankBlockEntities( builder );
@@ -76,6 +79,10 @@ public class CoinBankBlocksFeatureLoader {
 	
 	public static Block registerSheepBankBlock( String id ) {
 		return CoinBankBlocksFeature.registerCoinBankBlock( id, new SheepBankBlock( AbstractBlock.Settings.create() ) );
+	}
+	
+	public static Block registerCowBankBlock( String id ) {
+		return CoinBankBlocksFeature.registerCoinBankBlock( id, new CowBankBlock( AbstractBlock.Settings.create() ) );
 	}
 	
 }

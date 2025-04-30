@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 
 - Added 16 colors of Sheep Coin Banks.
+- Added 3 types of Cow Coin Banks: Cow, Red Mooshroom, and Brown Mooshroom.
 
 ## [1.0.1]
 
