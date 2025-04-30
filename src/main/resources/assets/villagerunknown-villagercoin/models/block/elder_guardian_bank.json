@@ -1,0 +1,7 @@
+{
+	"parent": "villagerunknown-villagercoin:block/guardian_bank",
+	"textures": {
+		"0": "villagerunknown-villagercoin:block/elder_guardian_bank",
+		"particle": "villagerunknown-villagercoin:block/elder_guardian_bank"
+	}
+}

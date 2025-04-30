@@ -56,6 +56,9 @@ public class CoinBankBlocks {
 	
 	public static final Block RAVAGER_COIN_BANK;
 	
+	public static final Block GUARDIAN_COIN_BANK;
+	public static final Block ELDER_GUARDIAN_COIN_BANK;
+	
 	public CoinBankBlocks(){}
 	
 	static{
@@ -109,6 +112,9 @@ public class CoinBankBlocks {
 		ANGRY_BEE_COIN_BANK = CoinBankBlocksFeatureLoader.registerBeeBankBlock( "angry_bee_bank" );
 		
 		RAVAGER_COIN_BANK = CoinBankBlocksFeatureLoader.registerRavagerBankBlock( "ravager_bank" );
+		
+		GUARDIAN_COIN_BANK = CoinBankBlocksFeatureLoader.registerGuardianBankBlock( "guardian_bank" );
+		ELDER_GUARDIAN_COIN_BANK = CoinBankBlocksFeatureLoader.registerGuardianBankBlock( "elder_guardian_bank" );
 	}
 
 }

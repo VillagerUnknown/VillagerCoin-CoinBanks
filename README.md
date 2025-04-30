@@ -14,6 +14,7 @@ If broken without silk touch, the bank breaks and the total value of the bank dr
 * 2 types of craftable Piglin Banks: Piglin and Zombified Piglin.
 * 3 types of craftable Cow Coin Banks: Cow, Red Mooshroom, and Brown Mooshroom.
 * 2 types of craftable Bee Coin Banks: Bee and Angry Bee.
+* 2 types of Guardian Coin Banks: Guardian and Elder Guardian.
 * 16 colors of craftable Sheep Coin Banks.
 * 17 colors of craftable Coin Pots.
 * A craftable Ravager Coin Bank

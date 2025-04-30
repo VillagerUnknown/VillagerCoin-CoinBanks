@@ -62,7 +62,9 @@ public class CoinBankBlocksFeatureLoader {
 				CoinBankBlocks.BROWN_MOOSHROOM_COIN_BANK,
 				CoinBankBlocks.BEE_COIN_BANK,
 				CoinBankBlocks.ANGRY_BEE_COIN_BANK,
-				CoinBankBlocks.RAVAGER_COIN_BANK
+				CoinBankBlocks.RAVAGER_COIN_BANK,
+				CoinBankBlocks.GUARDIAN_COIN_BANK,
+				CoinBankBlocks.ELDER_GUARDIAN_COIN_BANK
 		);
 		
 		return CoinBankBlocksFeature.registerCoinBankBlockEntities( builder );
@@ -94,6 +96,10 @@ public class CoinBankBlocksFeatureLoader {
 	
 	public static Block registerRavagerBankBlock( String id ) {
 		return CoinBankBlocksFeature.registerCoinBankBlock( id, new RavagerBankBlock( AbstractBlock.Settings.create() ) );
+	}
+	
+	public static Block registerGuardianBankBlock( String id ) {
+		return CoinBankBlocksFeature.registerCoinBankBlock( id, new GuardianBankBlock( AbstractBlock.Settings.create() ) );
 	}
 	
 }
