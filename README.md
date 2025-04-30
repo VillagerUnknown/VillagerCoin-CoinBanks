@@ -10,11 +10,13 @@ If broken without silk touch, the bank breaks and the total value of the bank dr
 
 ## Features
 
-* Adds 3 types of craftable Piggy Banks: Cold, Temperate, and Warm.
-* Adds 2 types of craftable Piglin Banks: Piglin and Zombified Piglin.
-* Adds 3 types of Cow Coin Banks: Cow, Red Mooshroom, and Brown Mooshroom.
-* Adds 16 colors of craftable Sheep Coin Banks.
-* Adds 17 colors of craftable Coin Pots.
+* 3 types of craftable Piggy Banks: Cold, Temperate, and Warm.
+* 2 types of craftable Piglin Banks: Piglin and Zombified Piglin.
+* 3 types of craftable Cow Coin Banks: Cow, Red Mooshroom, and Brown Mooshroom.
+* 2 types of craftable Bee Coin Banks: Bee and Angry Bee.
+* 16 colors of craftable Sheep Coin Banks.
+* 17 colors of craftable Coin Pots.
+* A craftable Ravager Coin Bank
 
 ## Support
 

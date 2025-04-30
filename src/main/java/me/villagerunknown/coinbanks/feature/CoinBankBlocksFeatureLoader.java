@@ -10,7 +10,7 @@ import net.minecraft.block.entity.BlockEntityType;
 
 public class CoinBankBlocksFeatureLoader {
 
-	public static final BlockEntityType<CoinBankBlockEntity> COIN_BANK_BLOCK_ENTITY_TYPE = (BlockEntityType<CoinBankBlockEntity>) registerCoinBankBlockEntities();
+	public static final BlockEntityType<CoinBankBlockEntity> COIN_COIN_BANK_ENTITY_TYPE = (BlockEntityType<CoinBankBlockEntity>) registerCoinBankBlockEntities();
 	
 	public static void execute(){
 		new CoinBankBlocks();
@@ -36,32 +36,33 @@ public class CoinBankBlocksFeatureLoader {
 				CoinBankBlocks.GREEN_TERRACOTTA_COIN_BANK,
 				CoinBankBlocks.RED_TERRACOTTA_COIN_BANK,
 				CoinBankBlocks.BLACK_TERRACOTTA_COIN_BANK,
-				CoinBankBlocks.COLD_PIGGY_BANK_BLOCK,
-				CoinBankBlocks.TEMPERATE_PIGGY_BANK_BLOCK,
-				CoinBankBlocks.WARM_PIGGY_BANK_BLOCK,
-				CoinBankBlocks.PIGLIN_BANK_BLOCK,
-				CoinBankBlocks.ZOMBIFIED_PIGLIN_BANK_BLOCK,
-				CoinBankBlocks.WHITE_SHEEP_BANK_BLOCK,
-				CoinBankBlocks.ORANGE_SHEEP_BANK_BLOCK,
-				CoinBankBlocks.MAGENTA_SHEEP_BANK_BLOCK,
-				CoinBankBlocks.LIGHT_BLUE_SHEEP_BANK_BLOCK,
-				CoinBankBlocks.YELLOW_SHEEP_BANK_BLOCK,
-				CoinBankBlocks.LIME_SHEEP_BANK_BLOCK,
-				CoinBankBlocks.PINK_SHEEP_BANK_BLOCK,
-				CoinBankBlocks.GRAY_SHEEP_BANK_BLOCK,
-				CoinBankBlocks.LIGHT_GRAY_SHEEP_BANK_BLOCK,
-				CoinBankBlocks.CYAN_SHEEP_BANK_BLOCK,
-				CoinBankBlocks.PURPLE_SHEEP_BANK_BLOCK,
-				CoinBankBlocks.BLUE_SHEEP_BANK_BLOCK,
-				CoinBankBlocks.BROWN_SHEEP_BANK_BLOCK,
-				CoinBankBlocks.GREEN_SHEEP_BANK_BLOCK,
-				CoinBankBlocks.RED_SHEEP_BANK_BLOCK,
-				CoinBankBlocks.BLACK_SHEEP_BANK_BLOCK,
-				CoinBankBlocks.COW_BANK_BLOCK,
-				CoinBankBlocks.RED_MOOSHROOM_BANK_BLOCK,
-				CoinBankBlocks.BROWN_MOOSHROOM_BANK_BLOCK,
-				CoinBankBlocks.BEE_BANK_BLOCK,
-				CoinBankBlocks.ANGRY_BEE_BANK_BLOCK
+				CoinBankBlocks.COLD_PIG_COIN_BANK,
+				CoinBankBlocks.TEMPERATE_PIG_COIN_BANK,
+				CoinBankBlocks.WARM_PIG_COIN_BANK,
+				CoinBankBlocks.PIGLIN_COIN_BANK,
+				CoinBankBlocks.ZOMBIFIED_PIGLIN_COIN_BANK,
+				CoinBankBlocks.WHITE_SHEEP_COIN_BANK,
+				CoinBankBlocks.ORANGE_SHEEP_COIN_BANK,
+				CoinBankBlocks.MAGENTA_SHEEP_COIN_BANK,
+				CoinBankBlocks.LIGHT_BLUE_SHEEP_COIN_BANK,
+				CoinBankBlocks.YELLOW_SHEEP_COIN_BANK,
+				CoinBankBlocks.LIME_SHEEP_COIN_BANK,
+				CoinBankBlocks.PINK_SHEEP_COIN_BANK,
+				CoinBankBlocks.GRAY_SHEEP_COIN_BANK,
+				CoinBankBlocks.LIGHT_GRAY_SHEEP_COIN_BANK,
+				CoinBankBlocks.CYAN_SHEEP_COIN_BANK,
+				CoinBankBlocks.PURPLE_SHEEP_COIN_BANK,
+				CoinBankBlocks.BLUE_SHEEP_COIN_BANK,
+				CoinBankBlocks.BROWN_SHEEP_COIN_BANK,
+				CoinBankBlocks.GREEN_SHEEP_COIN_BANK,
+				CoinBankBlocks.RED_SHEEP_COIN_BANK,
+				CoinBankBlocks.BLACK_SHEEP_COIN_BANK,
+				CoinBankBlocks.COW_COIN_BANK,
+				CoinBankBlocks.RED_MOOSHROOM_COIN_BANK,
+				CoinBankBlocks.BROWN_MOOSHROOM_COIN_BANK,
+				CoinBankBlocks.BEE_COIN_BANK,
+				CoinBankBlocks.ANGRY_BEE_COIN_BANK,
+				CoinBankBlocks.RAVAGER_COIN_BANK
 		);
 		
 		return CoinBankBlocksFeature.registerCoinBankBlockEntities( builder );
@@ -89,6 +90,10 @@ public class CoinBankBlocksFeatureLoader {
 	
 	public static Block registerBeeBankBlock( String id ) {
 		return CoinBankBlocksFeature.registerCoinBankBlock( id, new BeeBankBlock( AbstractBlock.Settings.create() ) );
+	}
+	
+	public static Block registerRavagerBankBlock( String id ) {
+		return CoinBankBlocksFeature.registerCoinBankBlock( id, new RavagerBankBlock( AbstractBlock.Settings.create() ) );
 	}
 	
 }
