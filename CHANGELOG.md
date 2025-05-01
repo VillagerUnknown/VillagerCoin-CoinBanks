@@ -11,6 +11,7 @@ All notable changes to this project will be documented in this file.
 - Added 2 types of Bee Coin Banks: Bee and Angry Bee.
 - Added 2 types of Guardian Coin Banks: Guardian and Elder Guardian.
 - Added Ravager Coin Bank.
+- Added Recipe Advancements for Coin Banks.
 
 ### Changed
 
