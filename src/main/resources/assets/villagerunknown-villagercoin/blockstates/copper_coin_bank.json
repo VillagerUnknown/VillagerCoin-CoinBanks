@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "villagerunknown-villagercoin:block/copper_coin_bank"
+    }
+  }
+}

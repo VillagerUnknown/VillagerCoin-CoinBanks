@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "villagerunknown-villagercoin:block/gold_coin_bank"
+    }
+  }
+}

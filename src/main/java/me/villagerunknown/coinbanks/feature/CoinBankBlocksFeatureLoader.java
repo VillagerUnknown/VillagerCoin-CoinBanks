@@ -6,6 +6,7 @@ import me.villagerunknown.villagercoin.block.entity.AbstractCurrencyValueBlockEn
 import me.villagerunknown.villagercoin.feature.CoinBankBlocksFeature;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.entity.BlockEntityType;
 
 public class CoinBankBlocksFeatureLoader {
@@ -36,6 +37,11 @@ public class CoinBankBlocksFeatureLoader {
 				CoinBankBlocks.GREEN_TERRACOTTA_COIN_BANK,
 				CoinBankBlocks.RED_TERRACOTTA_COIN_BANK,
 				CoinBankBlocks.BLACK_TERRACOTTA_COIN_BANK,
+				CoinBankBlocks.COPPER_COIN_BANK,
+				CoinBankBlocks.IRON_COIN_BANK,
+				CoinBankBlocks.GOLD_COIN_BANK,
+				CoinBankBlocks.EMERALD_COIN_BANK,
+				CoinBankBlocks.NETHERITE_COIN_BANK,
 				CoinBankBlocks.OBSIDIAN_COIN_BANK,
 				CoinBankBlocks.CRYING_OBSIDIAN_COIN_BANK,
 				CoinBankBlocks.COLD_PIG_COIN_BANK,
@@ -76,12 +82,20 @@ public class CoinBankBlocksFeatureLoader {
 		return CoinBankBlocksFeature.registerCoinBankBlock( id, new CoinBankBlock( AbstractBlock.Settings.create().breakInstantly() ) );
 	}
 	
+	public static Block registerFireproofCoinBankBlock( String id ) {
+		return CoinBankBlocksFeature.registerFireproofCoinBankBlock( id, new CoinBankBlock( AbstractBlock.Settings.create().breakInstantly() ) );
+	}
+	
 	public static Block registerJarCoinBankBlock( String id ) {
 		return CoinBankBlocksFeature.registerCoinBankBlock( id, new JarCoinBankBlock( AbstractBlock.Settings.create().breakInstantly() ) );
 	}
 	
 	public static Block registerToughJarCoinBankBlock( String id ) {
 		return CoinBankBlocksFeature.registerCoinBankBlock( id, new ToughJarCoinBankBlock( AbstractBlock.Settings.create() ) );
+	}
+	
+	public static Block registerToughFireproofJarCoinBankBlock( String id ) {
+		return CoinBankBlocksFeature.registerFireproofCoinBankBlock( id, new ToughJarCoinBankBlock( AbstractBlock.Settings.create() ) );
 	}
 	
 	public static Block registerPiggyBankBlock( String id ) {

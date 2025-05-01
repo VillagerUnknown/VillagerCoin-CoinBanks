@@ -23,6 +23,12 @@ public class CoinBankBlocks {
 	public static final Block RED_TERRACOTTA_COIN_BANK;
 	public static final Block BLACK_TERRACOTTA_COIN_BANK;
 	
+	public static final Block COPPER_COIN_BANK;
+	public static final Block IRON_COIN_BANK;
+	public static final Block GOLD_COIN_BANK;
+	public static final Block EMERALD_COIN_BANK;
+	public static final Block NETHERITE_COIN_BANK;
+	
 	public static final Block OBSIDIAN_COIN_BANK;
 	public static final Block CRYING_OBSIDIAN_COIN_BANK;
 	
@@ -82,6 +88,12 @@ public class CoinBankBlocks {
 		GREEN_TERRACOTTA_COIN_BANK = CoinBankBlocksFeatureLoader.registerJarCoinBankBlock( "green_terracotta_coin_bank" );
 		RED_TERRACOTTA_COIN_BANK = CoinBankBlocksFeatureLoader.registerJarCoinBankBlock( "red_terracotta_coin_bank" );
 		BLACK_TERRACOTTA_COIN_BANK = CoinBankBlocksFeatureLoader.registerJarCoinBankBlock( "black_terracotta_coin_bank" );
+		
+		COPPER_COIN_BANK = CoinBankBlocksFeatureLoader.registerJarCoinBankBlock( "copper_coin_bank" );
+		IRON_COIN_BANK = CoinBankBlocksFeatureLoader.registerJarCoinBankBlock( "iron_coin_bank" );
+		GOLD_COIN_BANK = CoinBankBlocksFeatureLoader.registerJarCoinBankBlock( "gold_coin_bank" );
+		EMERALD_COIN_BANK = CoinBankBlocksFeatureLoader.registerJarCoinBankBlock( "emerald_coin_bank" );
+		NETHERITE_COIN_BANK = CoinBankBlocksFeatureLoader.registerToughFireproofJarCoinBankBlock( "netherite_coin_bank" );
 		
 		OBSIDIAN_COIN_BANK = CoinBankBlocksFeatureLoader.registerToughJarCoinBankBlock( "obsidian_coin_bank" );
 		CRYING_OBSIDIAN_COIN_BANK = CoinBankBlocksFeatureLoader.registerToughJarCoinBankBlock( "crying_obsidian_coin_bank" );
