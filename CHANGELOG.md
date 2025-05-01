@@ -12,6 +12,10 @@ All notable changes to this project will be documented in this file.
 - Added 2 types of Guardian Coin Banks: Guardian and Elder Guardian.
 - Added Ravager Coin Bank.
 
+### Changed
+
+- Changed mixin filenames to avoid potential conflicts.
+
 ## [1.0.1]
 
 ### Added
