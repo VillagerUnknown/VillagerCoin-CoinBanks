@@ -10,6 +10,8 @@ If broken without silk touch, the bank breaks and the total value of the bank dr
 
 ## Features
 
+* Copper, Iron, Gold, and Emerald Coin Banks.
+* Fireproof, and blast resistant, Netherite Coin Bank.
 * 3 types of craftable Piggy Banks: Cold, Temperate, and Warm.
 * 2 types of craftable Piglin Banks: Piglin and Zombified Piglin.
 * 3 types of craftable Cow Coin Banks: Cow, Red Mooshroom, and Brown Mooshroom.
