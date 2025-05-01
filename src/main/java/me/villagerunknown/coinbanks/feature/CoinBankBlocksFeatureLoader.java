@@ -36,6 +36,8 @@ public class CoinBankBlocksFeatureLoader {
 				CoinBankBlocks.GREEN_TERRACOTTA_COIN_BANK,
 				CoinBankBlocks.RED_TERRACOTTA_COIN_BANK,
 				CoinBankBlocks.BLACK_TERRACOTTA_COIN_BANK,
+				CoinBankBlocks.OBSIDIAN_COIN_BANK,
+				CoinBankBlocks.CRYING_OBSIDIAN_COIN_BANK,
 				CoinBankBlocks.COLD_PIG_COIN_BANK,
 				CoinBankBlocks.TEMPERATE_PIG_COIN_BANK,
 				CoinBankBlocks.WARM_PIG_COIN_BANK,
@@ -71,35 +73,39 @@ public class CoinBankBlocksFeatureLoader {
 	}
 	
 	public static Block registerCoinBankBlock( String id ) {
-		return CoinBankBlocksFeature.registerCoinBankBlock( id, new CoinBankBlock( AbstractBlock.Settings.create() ) );
+		return CoinBankBlocksFeature.registerCoinBankBlock( id, new CoinBankBlock( AbstractBlock.Settings.create().breakInstantly() ) );
 	}
 	
 	public static Block registerJarCoinBankBlock( String id ) {
-		return CoinBankBlocksFeature.registerCoinBankBlock( id, new JarCoinBankBlock( AbstractBlock.Settings.create() ) );
+		return CoinBankBlocksFeature.registerCoinBankBlock( id, new JarCoinBankBlock( AbstractBlock.Settings.create().breakInstantly() ) );
+	}
+	
+	public static Block registerToughJarCoinBankBlock( String id ) {
+		return CoinBankBlocksFeature.registerCoinBankBlock( id, new ToughJarCoinBankBlock( AbstractBlock.Settings.create() ) );
 	}
 	
 	public static Block registerPiggyBankBlock( String id ) {
-		return CoinBankBlocksFeature.registerCoinBankBlock( id, new PiggyBankBlock( AbstractBlock.Settings.create() ) );
+		return CoinBankBlocksFeature.registerCoinBankBlock( id, new PiggyBankBlock( AbstractBlock.Settings.create().breakInstantly() ) );
 	}
 	
 	public static Block registerSheepBankBlock( String id ) {
-		return CoinBankBlocksFeature.registerCoinBankBlock( id, new SheepBankBlock( AbstractBlock.Settings.create() ) );
+		return CoinBankBlocksFeature.registerCoinBankBlock( id, new SheepBankBlock( AbstractBlock.Settings.create().breakInstantly() ) );
 	}
 	
 	public static Block registerCowBankBlock( String id ) {
-		return CoinBankBlocksFeature.registerCoinBankBlock( id, new CowBankBlock( AbstractBlock.Settings.create() ) );
+		return CoinBankBlocksFeature.registerCoinBankBlock( id, new CowBankBlock( AbstractBlock.Settings.create().breakInstantly() ) );
 	}
 	
 	public static Block registerBeeBankBlock( String id ) {
-		return CoinBankBlocksFeature.registerCoinBankBlock( id, new BeeBankBlock( AbstractBlock.Settings.create() ) );
+		return CoinBankBlocksFeature.registerCoinBankBlock( id, new BeeBankBlock( AbstractBlock.Settings.create().breakInstantly() ) );
 	}
 	
 	public static Block registerRavagerBankBlock( String id ) {
-		return CoinBankBlocksFeature.registerCoinBankBlock( id, new RavagerBankBlock( AbstractBlock.Settings.create() ) );
+		return CoinBankBlocksFeature.registerCoinBankBlock( id, new RavagerBankBlock( AbstractBlock.Settings.create().breakInstantly() ) );
 	}
 	
 	public static Block registerGuardianBankBlock( String id ) {
-		return CoinBankBlocksFeature.registerCoinBankBlock( id, new GuardianBankBlock( AbstractBlock.Settings.create() ) );
+		return CoinBankBlocksFeature.registerCoinBankBlock( id, new GuardianBankBlock( AbstractBlock.Settings.create().breakInstantly() ) );
 	}
 	
 }

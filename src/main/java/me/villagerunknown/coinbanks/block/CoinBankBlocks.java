@@ -23,6 +23,9 @@ public class CoinBankBlocks {
 	public static final Block RED_TERRACOTTA_COIN_BANK;
 	public static final Block BLACK_TERRACOTTA_COIN_BANK;
 	
+	public static final Block OBSIDIAN_COIN_BANK;
+	public static final Block CRYING_OBSIDIAN_COIN_BANK;
+	
 	public static final Block COLD_PIG_COIN_BANK;
 	public static final Block TEMPERATE_PIG_COIN_BANK;
 	public static final Block WARM_PIG_COIN_BANK;
@@ -79,6 +82,9 @@ public class CoinBankBlocks {
 		GREEN_TERRACOTTA_COIN_BANK = CoinBankBlocksFeatureLoader.registerJarCoinBankBlock( "green_terracotta_coin_bank" );
 		RED_TERRACOTTA_COIN_BANK = CoinBankBlocksFeatureLoader.registerJarCoinBankBlock( "red_terracotta_coin_bank" );
 		BLACK_TERRACOTTA_COIN_BANK = CoinBankBlocksFeatureLoader.registerJarCoinBankBlock( "black_terracotta_coin_bank" );
+		
+		OBSIDIAN_COIN_BANK = CoinBankBlocksFeatureLoader.registerToughJarCoinBankBlock( "obsidian_coin_bank" );
+		CRYING_OBSIDIAN_COIN_BANK = CoinBankBlocksFeatureLoader.registerToughJarCoinBankBlock( "crying_obsidian_coin_bank" );
 		
 		COLD_PIG_COIN_BANK = CoinBankBlocksFeatureLoader.registerPiggyBankBlock( "cold_piggy_bank" );
 		TEMPERATE_PIG_COIN_BANK = CoinBankBlocksFeatureLoader.registerPiggyBankBlock( "temperate_piggy_bank" );

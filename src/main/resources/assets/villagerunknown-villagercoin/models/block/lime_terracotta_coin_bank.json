@@ -1,5 +1,5 @@
 {
-	"parent": "villagerunknown-villagercoin:block/jar_coin_bank",
+	"parent": "villagerunknown-villagercoin:block/coin_pot",
 	"textures": {
 		"0": "minecraft:block/lime_terracotta",
 		"1": "minecraft:block/black_concrete",

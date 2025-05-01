@@ -26,6 +26,9 @@
   "block.villagerunknown-villagercoin.red_terracotta_coin_bank": "Red Coin Pot",
   "block.villagerunknown-villagercoin.black_terracotta_coin_bank": "Black Coin Pot",
 
+  "block.villagerunknown-villagercoin.obsidian_coin_bank": "Obsidian Coin Pot",
+  "block.villagerunknown-villagercoin.crying_obsidian_coin_bank": "Crying Obsidian Coin Pot",
+
   "block.villagerunknown-villagercoin.cold_piggy_bank": "Cold Piggy Bank",
   "block.villagerunknown-villagercoin.temperate_piggy_bank": "Temperate Piggy Bank",
   "block.villagerunknown-villagercoin.warm_piggy_bank": "Warm Piggy Bank",

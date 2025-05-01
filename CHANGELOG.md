@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
+- Added 2 blast resistant Coin Banks: Obsidian and Crying Obsidian.
 - Added 16 colors of Sheep Coin Banks.
 - Added 3 types of Cow Coin Banks: Cow, Red Mooshroom, and Brown Mooshroom.
 - Added 2 types of Bee Coin Banks: Bee and Angry Bee.
