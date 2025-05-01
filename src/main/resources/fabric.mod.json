@@ -25,9 +25,9 @@
     ]
   },
   "mixins": [
-    "coinbanks.mixins.json",
+    "villagercoin-coinbanks.mixins.json",
     {
-      "config": "coinbanks.client.mixins.json",
+      "config": "villagercoin-coinbanks.client.mixins.json",
       "environment": "client"
     }
   ],
@@ -36,6 +36,6 @@
     "fabric": "*",
     "minecraft": "${minecraft_version}",
     "villagerunknown-platform": ">=1.2.0",
-    "villagerunknown-villagercoin": ">=1.0.5"
+    "villagerunknown-villagercoin": ">=1.0.6"
   }
 }

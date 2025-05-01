@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_brick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brick"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "villagerunknown-villagercoin:brick_coin_banks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_brick"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "villagerunknown-villagercoin:terracotta_coin_bank",
+      "villagerunknown-villagercoin:white_terracotta_coin_bank",
+      "villagerunknown-villagercoin:orange_terracotta_coin_bank",
+      "villagerunknown-villagercoin:magenta_terracotta_coin_bank",
+      "villagerunknown-villagercoin:light_blue_terracotta_coin_bank",
+      "villagerunknown-villagercoin:yellow_terracotta_coin_bank",
+      "villagerunknown-villagercoin:lime_terracotta_coin_bank",
+      "villagerunknown-villagercoin:pink_terracotta_coin_bank",
+      "villagerunknown-villagercoin:gray_terracotta_coin_bank",
+      "villagerunknown-villagercoin:light_gray_terracotta_coin_bank",
+      "villagerunknown-villagercoin:cyan_terracotta_coin_bank",
+      "villagerunknown-villagercoin:blue_terracotta_coin_bank",
+      "villagerunknown-villagercoin:brown_terracotta_coin_bank",
+      "villagerunknown-villagercoin:green_terracotta_coin_bank",
+      "villagerunknown-villagercoin:red_terracotta_coin_bank",
+      "villagerunknown-villagercoin:black_terracotta_coin_bank",
+      "villagerunknown-villagercoin:obsidian_coin_bank",
+      "villagerunknown-villagercoin:crying_obsidian_coin_bank",
+      "villagerunknown-villagercoin:cold_piggy_bank",
+      "villagerunknown-villagercoin:temperate_piggy_bank",
+      "villagerunknown-villagercoin:warm_piggy_bank",
+      "villagerunknown-villagercoin:piglin_bank",
+      "villagerunknown-villagercoin:zombified_piglin_bank",
+      "villagerunknown-villagercoin:white_sheep_bank",
+      "villagerunknown-villagercoin:orange_sheep_bank",
+      "villagerunknown-villagercoin:magenta_sheep_bank",
+      "villagerunknown-villagercoin:light_blue_sheep_bank",
+      "villagerunknown-villagercoin:yellow_sheep_bank",
+      "villagerunknown-villagercoin:lime_sheep_bank",
+      "villagerunknown-villagercoin:pink_sheep_bank",
+      "villagerunknown-villagercoin:gray_sheep_bank",
+      "villagerunknown-villagercoin:light_gray_sheep_bank",
+      "villagerunknown-villagercoin:cyan_sheep_bank",
+      "villagerunknown-villagercoin:blue_sheep_bank",
+      "villagerunknown-villagercoin:brown_sheep_bank",
+      "villagerunknown-villagercoin:green_sheep_bank",
+      "villagerunknown-villagercoin:red_sheep_bank",
+      "villagerunknown-villagercoin:black_sheep_bank",
+      "villagerunknown-villagercoin:cow_bank",
+      "villagerunknown-villagercoin:red_mooshroom_bank",
+      "villagerunknown-villagercoin:brown_mooshroom_bank",
+      "villagerunknown-villagercoin:bee_bank",
+      "villagerunknown-villagercoin:angry_bee_bank",
+      "villagerunknown-villagercoin:ravager_bank",
+      "villagerunknown-villagercoin:guardian_bank",
+      "villagerunknown-villagercoin:elder_guardian_bank"
+    ]
+  }
+}

@@ -13,7 +13,7 @@ public class CoinBankBlockEntity extends AbstractCurrencyValueBlockEntity {
 	}
 	
 	public CoinBankBlockEntity(BlockPos blockPos, BlockState blockState) {
-		super(CoinBankBlocksFeatureLoader.COIN_BANK_BLOCK_ENTITY_TYPE, blockPos, blockState);
+		super(CoinBankBlocksFeatureLoader.COIN_COIN_BANK_ENTITY_TYPE, blockPos, blockState);
 	}
 	
 }

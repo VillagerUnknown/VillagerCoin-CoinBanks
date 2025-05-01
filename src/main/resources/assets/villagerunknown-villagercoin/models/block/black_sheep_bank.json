@@ -1,0 +1,7 @@
+{
+	"parent": "villagerunknown-villagercoin:block/sheep_bank",
+	"textures": {
+		"0": "villagerunknown-villagercoin:block/black_sheep_bank",
+		"particle": "villagerunknown-villagercoin:block/black_sheep_bank"
+	}
+}

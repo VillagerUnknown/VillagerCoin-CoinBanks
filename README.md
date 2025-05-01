@@ -10,9 +10,17 @@ If broken without silk touch, the bank breaks and the total value of the bank dr
 
 ## Features
 
-* Adds 17 colors of craftable Coin Pots.
-* Adds 3 types of craftable Piggy Banks: Cold, Temperate, and Warm.
-* Adds 2 types of craftable Piglin Banks: Piglin and Zombified Piglin.
+* Copper, Amethyst, Iron, Gold, Diamond, and Emerald Coin Banks.
+* Fireproof, and blast resistant, Netherite Coin Bank.
+* 3 types of craftable Piggy Banks: Cold, Temperate, and Warm.
+* 2 types of craftable Piglin Banks: Piglin and Zombified Piglin.
+* 3 types of craftable Cow Coin Banks: Cow, Red Mooshroom, and Brown Mooshroom.
+* 2 types of craftable Bee Coin Banks: Bee and Angry Bee.
+* 2 types of Guardian Coin Banks: Guardian and Elder Guardian.
+* 2 types of tough, blast resistant, Coin Banks: Obsidian and Crying Obsidian.
+* 16 colors of craftable Sheep Coin Banks.
+* 17 colors of craftable Coin Pots.
+* A craftable Ravager Coin Bank
 
 ## Support
 

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "villagerunknown-villagercoin:gold_coin_bank",
+    "villagerunknown-villagercoin:piglin_bank",
+    "villagerunknown-villagercoin:zombified_piglin_bank"
+  ]
+}

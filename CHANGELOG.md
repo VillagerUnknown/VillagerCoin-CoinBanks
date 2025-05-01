@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.2]
+
+### Added
+
+- Added Copper, Amethyst, Iron, Gold, Diamond, and Emerald Coin Banks.
+- Added fireproof, and blast resistant, Netherite Coin Bank.
+- Added 2 blast resistant Coin Banks: Obsidian and Crying Obsidian.
+- Added 16 colors of Sheep Coin Banks.
+- Added 3 types of Cow Coin Banks: Cow, Red Mooshroom, and Brown Mooshroom.
+- Added 2 types of Bee Coin Banks: Bee and Angry Bee.
+- Added 2 types of Guardian Coin Banks: Guardian and Elder Guardian.
+- Added Ravager Coin Bank.
+- Added Recipe Advancements for Coin Banks.
+
+### Changed
+
+- Changed mixin filenames to avoid potential conflicts.
+
 ## [1.0.1]
 
 ### Added

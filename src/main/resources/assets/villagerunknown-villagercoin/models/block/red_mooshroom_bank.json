@@ -1,0 +1,7 @@
+{
+	"parent": "villagerunknown-villagercoin:block/cow_bank",
+	"textures": {
+		"0": "villagerunknown-villagercoin:block/red_mooshroom_bank",
+		"particle": "villagerunknown-villagercoin:block/red_mooshroom_bank"
+	}
+}

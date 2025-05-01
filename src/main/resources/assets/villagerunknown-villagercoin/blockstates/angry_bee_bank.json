@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "villagerunknown-villagercoin:block/angry_bee_bank", "y": 0
+    },
+    "facing=east": {
+      "model": "villagerunknown-villagercoin:block/angry_bee_bank", "y": 90
+    },
+    "facing=south": {
+      "model": "villagerunknown-villagercoin:block/angry_bee_bank", "y": 180
+    },
+    "facing=west": {
+      "model": "villagerunknown-villagercoin:block/angry_bee_bank", "y": 270
+    }
+  }
+}
