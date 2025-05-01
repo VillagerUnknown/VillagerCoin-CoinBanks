@@ -6,7 +6,7 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
-- Added Copper, Iron, Gold, and Emerald Coin Banks.
+- Added Copper, Amethyst, Iron, Gold, Diamond, and Emerald Coin Banks.
 - Added fireproof, and blast resistant, Netherite Coin Bank.
 - Added 2 blast resistant Coin Banks: Obsidian and Crying Obsidian.
 - Added 16 colors of Sheep Coin Banks.

@@ -29,8 +29,11 @@
   "block.villagerunknown-villagercoin.copper_coin_bank": "Copper Coin Pot",
   "block.villagerunknown-villagercoin.iron_coin_bank": "Iron Coin Pot",
   "block.villagerunknown-villagercoin.gold_coin_bank": "Gold Coin Pot",
+  "block.villagerunknown-villagercoin.diamond_coin_bank": "Diamond Coin Pot",
   "block.villagerunknown-villagercoin.emerald_coin_bank": "Emerald Coin Pot",
   "block.villagerunknown-villagercoin.netherite_coin_bank": "Netherite Coin Pot",
+
+  "block.villagerunknown-villagercoin.amethyst_coin_bank": "Amethyst Coin Pot",
 
   "block.villagerunknown-villagercoin.obsidian_coin_bank": "Obsidian Coin Pot",
   "block.villagerunknown-villagercoin.crying_obsidian_coin_bank": "Crying Obsidian Coin Pot",
