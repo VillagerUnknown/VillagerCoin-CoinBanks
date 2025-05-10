@@ -9,10 +9,9 @@ import org.slf4j.Logger;
 
 public class Coinbanks implements ModInitializer {
 	
-	public static PlatformMod<CoinbanksConfigData> MOD = Platform.register("coinbanks", Coinbanks.class, CoinbanksConfigData.class );
+	public static PlatformMod<?> MOD = Platform.register("coinbanks", Coinbanks.class );
 	public static String MOD_ID = MOD.getModId();
 	public static Logger LOGGER = MOD.getLogger();
-	public static CoinbanksConfigData CONFIG = MOD.getConfig();
 	
 	@Override
 	public void onInitialize() {
@@ -24,7 +23,10 @@ public class Coinbanks implements ModInitializer {
 		Platform.init_mod( MOD );
 		
 		// # Activate Features
-		featureManager.addFeature( "CoinBankBlocksFeature", CoinBankBlocksFeatureLoader::execute );
+		featureManager.addFeature( "coinBankBlocksFeatureLoader", CoinBankBlocksFeatureLoader::execute );
+		
+		// # Load Features
+		featureManager.loadFeatures();
 	}
 	
 }
