@@ -10,7 +10,7 @@
     "sources":"https://github.com/VillagerUnknown/VillagerCoin-CoinBanks",
     "issues":"https://github.com/VillagerUnknown/VillagerCoin-CoinBanks/issues"
   },
-  "license": "CC-BY-4.0",
+  "license": "MIT",
   "icon": "assets/villagerunknown-coinbanks/villagerunknown-coin-banks.png",
   "environment": "*",
   "entrypoints": {
