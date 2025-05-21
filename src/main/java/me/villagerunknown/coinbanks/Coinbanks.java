@@ -1,6 +1,6 @@
 package me.villagerunknown.coinbanks;
 
-import me.villagerunknown.coinbanks.feature.CoinBankBlocksFeature;
+import me.villagerunknown.coinbanks.feature.CoinBankBlocksRegistrationFeature;
 import me.villagerunknown.platform.Platform;
 import me.villagerunknown.platform.PlatformMod;
 import me.villagerunknown.platform.manager.featureManager;
@@ -23,7 +23,7 @@ public class Coinbanks implements ModInitializer {
 		Platform.init_mod( MOD );
 		
 		// # Activate Features
-		featureManager.addFeature( "coin-bank-blocks", CoinBankBlocksFeature::execute );
+		featureManager.addFeature( "coin-bank-blocks-registration", CoinBankBlocksRegistrationFeature::execute );
 		
 		// # Load Features
 		featureManager.loadFeatures();
