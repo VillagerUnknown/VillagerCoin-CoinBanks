@@ -33,6 +33,10 @@ public class CoinBankBlocksRegistrationFeature {
 		return CoinBankBlocksFeature.registerFireproofCoinBankBlock( Villagercoin.MOD_ID, id, new ToughJarCoinBankBlock( AbstractBlock.Settings.create() ) );
 	}
 	
+	public static Block registerCubeBankBlock( String id ) {
+		return CoinBankBlocksFeature.registerCoinBankBlock( Villagercoin.MOD_ID, id, new CubeBankBlock( AbstractBlock.Settings.create().breakInstantly() ) );
+	}
+	
 	public static Block registerPiggyBankBlock( String id ) {
 		return CoinBankBlocksFeature.registerCoinBankBlock( Villagercoin.MOD_ID, id, new PiggyBankBlock( AbstractBlock.Settings.create().breakInstantly() ) );
 	}

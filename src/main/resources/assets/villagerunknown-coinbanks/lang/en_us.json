@@ -66,5 +66,9 @@
   "block.villagerunknown-villagercoin.elder_guardian_bank": "Elder Guardian Coin Bank",
 
   "block.villagerunknown-villagercoin.hoglin_bank": "Hoglin Coin Bank",
-  "block.villagerunknown-villagercoin.zoglin_bank": "Zoglin Coin Bank"
+  "block.villagerunknown-villagercoin.zoglin_bank": "Zoglin Coin Bank",
+
+  "block.villagerunknown-villagercoin.pufferfish_bank": "Pufferfish Coin Bank",
+  "block.villagerunknown-villagercoin.slime_bank": "Slime Coin Bank",
+  "block.villagerunknown-villagercoin.magma_cube_bank": "Magma Cube Coin Bank"
 }

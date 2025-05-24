@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
+- Added Pufferfish Coin Bank.
+- Added Slime Coin Bank.
+- Added Magma Cube Coin Bank.
 - Added Hoglin and Zoglin Coin Banks. _These banks are loved by Piglins._
 
 ### Changed

@@ -20,9 +20,12 @@ If broken without silk touch, the bank breaks and the total value of the bank dr
 ### Mob Coin Banks
 
 * 3 types of craftable Piggy Banks: Cold, Temperate, and Warm.
-* 16 colors of craftable Sheep Coin Banks.
 * 3 types of craftable Cow Coin Banks: Cow, Red Mooshroom, and Brown Mooshroom.
+* 16 colors of craftable Sheep Coin Banks.
 * 2 types of craftable Bee Coin Banks: Bee and Angry Bee.
+* A craftable Pufferfish Coin Bank.
+* A craftable Slime Coin Bank.
+* A craftable Magma Cube Coin Bank.
 * A craftable Ravager Coin Bank.
 * 2 types of Guardian Coin Banks: Guardian and Elder Guardian.
 * 2 types of craftable Piglin Banks: Piglin and Zombified Piglin.

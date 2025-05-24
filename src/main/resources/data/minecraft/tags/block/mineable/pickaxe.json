@@ -67,6 +67,10 @@
     "villagerunknown-villagercoin:elder_guardian_bank",
 
     "villagerunknown-villagercoin:hoglin_bank",
-    "villagerunknown-villagercoin:zoglin_bank"
+    "villagerunknown-villagercoin:zoglin_bank",
+
+    "villagerunknown-villagercoin:pufferfish_bank",
+    "villagerunknown-villagercoin:slime_bank",
+    "villagerunknown-villagercoin:magma_cube_bank"
   ]
 }
