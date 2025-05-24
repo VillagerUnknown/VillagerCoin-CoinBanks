@@ -26,6 +26,7 @@ If broken without silk touch, the bank breaks and the total value of the bank dr
 * A craftable Ravager Coin Bank.
 * 2 types of Guardian Coin Banks: Guardian and Elder Guardian.
 * 2 types of craftable Piglin Banks: Piglin and Zombified Piglin.
+* 2 types of craftable Hoglin Banks: Hoglin and Zoglin.
 
 ## Support
 
