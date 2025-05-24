@@ -71,6 +71,9 @@ public class CoinBankBlocks {
 	public static final Block GUARDIAN_COIN_BANK;
 	public static final Block ELDER_GUARDIAN_COIN_BANK;
 	
+	public static final Block HOGLIN_COIN_BANK;
+	public static final Block ZOGLIN_COIN_BANK;
+	
 	public CoinBankBlocks(){}
 	
 	static{
@@ -139,6 +142,9 @@ public class CoinBankBlocks {
 		
 		GUARDIAN_COIN_BANK = CoinBankBlocksRegistrationFeature.registerGuardianBankBlock( "guardian_bank" );
 		ELDER_GUARDIAN_COIN_BANK = CoinBankBlocksRegistrationFeature.registerGuardianBankBlock( "elder_guardian_bank" );
+		
+		HOGLIN_COIN_BANK = CoinBankBlocksRegistrationFeature.registerHoglinBankBlock( "hoglin_bank" );
+		ZOGLIN_COIN_BANK = CoinBankBlocksRegistrationFeature.registerZoglinBankBlock( "zoglin_bank" );
 	}
 
 }

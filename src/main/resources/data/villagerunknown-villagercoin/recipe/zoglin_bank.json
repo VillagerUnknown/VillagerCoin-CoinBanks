@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:brick"
+    },
+    "D": {
+      "item": "minecraft:warped_fungus"
+    },
+    "C": {
+      "tag": "villagerunknown-villagercoin:villager_coin"
+    }
+  },
+  "pattern": [
+    "D#D",
+    "#C#",
+    "D#D"
+  ],
+  "result": {
+    "count": 1,
+    "id": "villagerunknown-villagercoin:zoglin_bank"
+  }
+}

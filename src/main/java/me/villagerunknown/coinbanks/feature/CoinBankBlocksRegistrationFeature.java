@@ -57,4 +57,12 @@ public class CoinBankBlocksRegistrationFeature {
 		return CoinBankBlocksFeature.registerCoinBankBlock( Villagercoin.MOD_ID, id, new GuardianBankBlock( AbstractBlock.Settings.create().breakInstantly() ) );
 	}
 	
+	public static Block registerHoglinBankBlock( String id ) {
+		return CoinBankBlocksFeature.registerCoinBankBlock( Villagercoin.MOD_ID, id, new HoglinBankBlock( AbstractBlock.Settings.create().breakInstantly() ) );
+	}
+	
+	public static Block registerZoglinBankBlock( String id ) {
+		return CoinBankBlocksFeature.registerCoinBankBlock( Villagercoin.MOD_ID, id, new ZoglinBankBlock( AbstractBlock.Settings.create().breakInstantly() ) );
+	}
+	
 }

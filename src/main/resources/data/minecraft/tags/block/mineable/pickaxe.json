@@ -64,6 +64,9 @@
     "villagerunknown-villagercoin:ravager_bank",
 
     "villagerunknown-villagercoin:guardian_bank",
-    "villagerunknown-villagercoin:elder_guardian_bank"
+    "villagerunknown-villagercoin:elder_guardian_bank",
+
+    "villagerunknown-villagercoin:hoglin_bank",
+    "villagerunknown-villagercoin:zoglin_bank"
   ]
 }
