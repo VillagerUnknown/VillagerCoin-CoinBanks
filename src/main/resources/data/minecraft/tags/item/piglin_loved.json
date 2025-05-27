@@ -3,6 +3,8 @@
   "values": [
     "villagerunknown-villagercoin:gold_coin_bank",
     "villagerunknown-villagercoin:piglin_bank",
-    "villagerunknown-villagercoin:zombified_piglin_bank"
+    "villagerunknown-villagercoin:zombified_piglin_bank",
+    "villagerunknown-villagercoin:hoglin_bank",
+    "villagerunknown-villagercoin:zoglin_bank"
   ]
 }

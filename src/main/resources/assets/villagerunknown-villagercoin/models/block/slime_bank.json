@@ -1,0 +1,31 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"0": "villagerunknown-villagercoin:block/slime_bank",
+		"particle": "villagerunknown-villagercoin:block/slime_bank"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 5],
+			"to": [11, 6, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 2.5, 7.5]},
+			"faces": {
+				"north": {"uv": [4, 4.5, 6, 8], "texture": "#0"},
+				"east": {"uv": [4, 4.5, 6, 8], "texture": "#0"},
+				"south": {"uv": [6, 4.5, 8, 8], "texture": "#0"},
+				"west": {"uv": [4, 4.5, 6, 8], "texture": "#0"},
+				"up": {"uv": [2, 2.25, 4, 4.25], "texture": "#0"},
+				"down": {"uv": [4, 4.5, 6, 8], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [14, 4, 8],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

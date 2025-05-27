@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.4]
+
+### Added
+
+- Added Pufferfish Coin Bank.
+- Added Slime Coin Bank.
+- Added Magma Cube Coin Bank.
+- Added Hoglin and Zoglin Coin Banks. _These banks are loved by Piglins._
+
+### Changed
+
+- Changed supported Platform version to 1.3.0.
+- Changed supported Villager Coin version to 1.0.8.
+
 ## [1.0.3]
 
 Receiving updates from VC 1.0.7.

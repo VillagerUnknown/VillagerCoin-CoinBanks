@@ -32,13 +32,16 @@ import net.minecraft.world.World;
 import java.util.HashMap;
 import java.util.function.Function;
 
-public class GuardianBankBlock extends CoinBankBlock {
+public class ZoglinBankBlock extends CoinBankBlock {
 	
-	protected static final VoxelShape SHAPE= Block.createCuboidShape(3.0, 0.0, 3.0, 13.0, 10.0, 14.0);
+	protected static final VoxelShape SHAPE_NORTH = Block.createCuboidShape(1.0, 0.0, 4.0, 15.0, 8.0, 12.0);
+	protected static final VoxelShape SHAPE_EAST = Block.createCuboidShape(4.0, 0.0, 1.0, 12.0, 8.0, 15.0);
+	protected static final VoxelShape SHAPE_SOUTH = Block.createCuboidShape(1.0, 0.0, 4.0, 15.0, 8.0, 12.0);
+	protected static final VoxelShape SHAPE_WEST = Block.createCuboidShape(4.0, 0.0, 1.0, 12.0, 8.0, 15.0);
 	
 	public static final DirectionProperty FACING;
 	
-	public GuardianBankBlock(Settings settings) {
+	public ZoglinBankBlock(Settings settings) {
 		super(
 				settings
 						.nonOpaque()
@@ -72,16 +75,25 @@ public class GuardianBankBlock extends CoinBankBlock {
 	protected ImmutableMap<BlockState, VoxelShape> getShapesForStates(Function<BlockState, VoxelShape> stateToShape) {
 		HashMap<BlockState, VoxelShape> shapes = new HashMap<>();
 		
-		shapes.put( stateManager.getDefaultState().with(FACING, Direction.NORTH), SHAPE );
-		shapes.put( stateManager.getDefaultState().with(FACING, Direction.EAST), SHAPE );
-		shapes.put( stateManager.getDefaultState().with(FACING, Direction.SOUTH), SHAPE );
-		shapes.put( stateManager.getDefaultState().with(FACING, Direction.WEST), SHAPE );
+		shapes.put( stateManager.getDefaultState().with(FACING, Direction.NORTH), SHAPE_NORTH );
+		shapes.put( stateManager.getDefaultState().with(FACING, Direction.EAST), SHAPE_EAST );
+		shapes.put( stateManager.getDefaultState().with(FACING, Direction.SOUTH), SHAPE_SOUTH );
+		shapes.put( stateManager.getDefaultState().with(FACING, Direction.WEST), SHAPE_WEST );
 		
 		return ImmutableMap.<BlockState, VoxelShape>builder().putAll( shapes ).build();
 	}
 	
 	protected VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
-		return SHAPE;
+		if( state.contains( FACING ) ) {
+			VoxelShape shape = switch (state.get(FACING).toString()) {
+				case "south" -> SHAPE_SOUTH;
+				case "north" -> SHAPE_NORTH;
+				case "west" -> SHAPE_WEST;
+				default -> SHAPE_EAST;
+			};
+			return shape;
+		}
+		return SHAPE_EAST;
 	}
 	
 	@Override

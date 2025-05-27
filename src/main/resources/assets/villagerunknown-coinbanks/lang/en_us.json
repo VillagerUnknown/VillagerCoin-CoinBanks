@@ -1,13 +1,4 @@
 {
-
-  "text.autoconfig.villagerunknown-coinbanks.title": "VillagerUnknown's Coin Banks for Villager Coin",
-
-  "text.autoconfig.villagerunknown-coinbanks.category.General": "General",
-
-  "text.autoconfig.villagerunknown-coinbanks.option.enableTheUnknown": "Enable The Unknown",
-
-  "tag.item.villagerunknown-villagercoin.coin_bank": "Coin Bank",
-
   "block.villagerunknown-villagercoin.terracotta_coin_bank": "Coin Pot",
   "block.villagerunknown-villagercoin.white_terracotta_coin_bank": "White Coin Pot",
   "block.villagerunknown-villagercoin.orange_terracotta_coin_bank": "Orange Coin Pot",
@@ -72,5 +63,12 @@
   "block.villagerunknown-villagercoin.ravager_bank": "Ravager Coin Bank",
 
   "block.villagerunknown-villagercoin.guardian_bank": "Guardian Coin Bank",
-  "block.villagerunknown-villagercoin.elder_guardian_bank": "Elder Guardian Coin Bank"
+  "block.villagerunknown-villagercoin.elder_guardian_bank": "Elder Guardian Coin Bank",
+
+  "block.villagerunknown-villagercoin.hoglin_bank": "Hoglin Coin Bank",
+  "block.villagerunknown-villagercoin.zoglin_bank": "Zoglin Coin Bank",
+
+  "block.villagerunknown-villagercoin.pufferfish_bank": "Pufferfish Coin Bank",
+  "block.villagerunknown-villagercoin.slime_bank": "Slime Coin Bank",
+  "block.villagerunknown-villagercoin.magma_cube_bank": "Magma Cube Coin Bank"
 }

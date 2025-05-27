@@ -32,13 +32,13 @@ import net.minecraft.world.World;
 import java.util.HashMap;
 import java.util.function.Function;
 
-public class GuardianBankBlock extends CoinBankBlock {
+public class CubeBankBlock extends CoinBankBlock {
 	
-	protected static final VoxelShape SHAPE= Block.createCuboidShape(3.0, 0.0, 3.0, 13.0, 10.0, 14.0);
+	protected static final VoxelShape SHAPE= Block.createCuboidShape(5.0, 0.0, 5.0, 11.0, 6.0, 11.0);
 	
 	public static final DirectionProperty FACING;
 	
-	public GuardianBankBlock(Settings settings) {
+	public CubeBankBlock(Settings settings) {
 		super(
 				settings
 						.nonOpaque()
