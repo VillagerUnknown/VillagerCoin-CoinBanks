@@ -3,10 +3,10 @@
 _This is an addon mod for Villager Coin._
 
 Adds various Coin Banks to Villager Coin that hold the total value of the coins added. 
-Coins can be added to a Coin Bank by holding a coin in your hand and interacting (right-clicking) on a Coin Bank to add the coin, and it's value, to the bank.
 
-If broken with silk touch, Coin Banks can be picked up with their value (similar to a Shulker Box). 
-If broken without silk touch, the bank breaks and the total value of the bank drops in the form of the largest coins.
+* Coins can be added to a Coin Bank by holding a stack of coins in your hand and interacting (right-clicking) on a Coin Bank to add the coin, and it's value, to the bank.
+* If broken with silk touch, Coin Banks can be picked up with their value (similar to a Shulker Box). 
+* If broken without silk touch, the bank breaks and the total value of the bank drops in the form of the largest coins.
 
 ## Coin Banks
 
