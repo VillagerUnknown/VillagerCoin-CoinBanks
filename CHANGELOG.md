@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.5]
+
+### Added
+
+- Added `villager_coin` item tag.
+
 ## [1.0.4]
 
 ### Added
