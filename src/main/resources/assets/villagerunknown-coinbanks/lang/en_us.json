@@ -1,4 +1,7 @@
 {
+
+  "text.autoconfig.villagerunknown-coinbanks.title": "VillagerUnknown's Coin Banks for Villager Coin",
+
   "block.villagerunknown-villagercoin.terracotta_coin_bank": "Coin Pot",
   "block.villagerunknown-villagercoin.white_terracotta_coin_bank": "White Coin Pot",
   "block.villagerunknown-villagercoin.orange_terracotta_coin_bank": "Orange Coin Pot",
@@ -71,4 +74,5 @@
   "block.villagerunknown-villagercoin.pufferfish_bank": "Pufferfish Coin Bank",
   "block.villagerunknown-villagercoin.slime_bank": "Slime Coin Bank",
   "block.villagerunknown-villagercoin.magma_cube_bank": "Magma Cube Coin Bank"
+
 }
