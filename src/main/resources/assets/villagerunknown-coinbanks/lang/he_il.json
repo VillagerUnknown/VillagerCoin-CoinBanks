@@ -1,0 +1,78 @@
+{
+
+  "text.autoconfig.villagerunknown-coinbanks.title": "VillagerUnknown's Coin Banks for Villager Coin",
+
+  "block.villagerunknown-villagercoin.terracotta_coin_bank": "טרקוטה של מטבעות",
+  "block.villagerunknown-villagercoin.white_terracotta_coin_bank": "לבן טרקוטה של מטבעות",
+  "block.villagerunknown-villagercoin.orange_terracotta_coin_bank": "כתום טרקוטה של מטבעות",
+  "block.villagerunknown-villagercoin.magenta_terracotta_coin_bank": "מג'נטה טרקוטה של מטבעות",
+  "block.villagerunknown-villagercoin.light_blue_terracotta_coin_bank": "תכלת כחול טרקוטה של מטבעות",
+  "block.villagerunknown-villagercoin.yellow_terracotta_coin_bank": "צהוב טרקוטה של מטבעות",
+  "block.villagerunknown-villagercoin.lime_terracotta_coin_bank": "ליים טרקוטה של מטבעות",
+  "block.villagerunknown-villagercoin.pink_terracotta_coin_bank": "ורוד טרקוטה של מטבעות",
+  "block.villagerunknown-villagercoin.gray_terracotta_coin_bank": "אפור טרקוטה של מטבעות",
+  "block.villagerunknown-villagercoin.light_gray_terracotta_coin_bank": "אפור בהיר אפור טרקוטה של מטבעות",
+  "block.villagerunknown-villagercoin.cyan_terracotta_coin_bank": "ציאן טרקוטה של מטבעות",
+  "block.villagerunknown-villagercoin.purple_terracotta_coin_bank": "סגול טרקוטה של מטבעות",
+  "block.villagerunknown-villagercoin.blue_terracotta_coin_bank": "כחול טרקוטה של מטבעות",
+  "block.villagerunknown-villagercoin.brown_terracotta_coin_bank": "חום טרקוטה של מטבעות",
+  "block.villagerunknown-villagercoin.green_terracotta_coin_bank": "ירוק טרקוטה של מטבעות",
+  "block.villagerunknown-villagercoin.red_terracotta_coin_bank": "אדום טרקוטה של מטבעות",
+  "block.villagerunknown-villagercoin.black_terracotta_coin_bank": "שחור טרקוטה של מטבעות",
+
+  "block.villagerunknown-villagercoin.copper_coin_bank": "נחושת של מטבעות",
+  "block.villagerunknown-villagercoin.iron_coin_bank": "ברזל של מטבעות",
+  "block.villagerunknown-villagercoin.gold_coin_bank": "זהב של מטבעות",
+  "block.villagerunknown-villagercoin.diamond_coin_bank": "יהלום של מטבעות",
+  "block.villagerunknown-villagercoin.emerald_coin_bank": "אזמרגד של מטבעות",
+  "block.villagerunknown-villagercoin.netherite_coin_bank": "נתרייט של מטבעות",
+
+  "block.villagerunknown-villagercoin.amethyst_coin_bank": "אחלמה של מטבעות",
+
+  "block.villagerunknown-villagercoin.obsidian_coin_bank": "אובסידיאן של מטבעות",
+  "block.villagerunknown-villagercoin.crying_obsidian_coin_bank": "בוכה אובסידיאן של מטבעות",
+
+  "block.villagerunknown-villagercoin.cold_piggy_bank": "חזירון קר Piggy בנק",
+  "block.villagerunknown-villagercoin.temperate_piggy_bank": "חזירון מתון Piggy בנק",
+  "block.villagerunknown-villagercoin.warm_piggy_bank": "חזירון חמים Piggy בנק",
+
+  "block.villagerunknown-villagercoin.piglin_bank": "פיגלין בנק",
+  "block.villagerunknown-villagercoin.zombified_piglin_bank": "פיגלין מזומבי פיגלין בנק",
+
+  "block.villagerunknown-villagercoin.white_sheep_bank": "לבן כבשה בנק",
+  "block.villagerunknown-villagercoin.orange_sheep_bank": "כתום כבשה בנק",
+  "block.villagerunknown-villagercoin.magenta_sheep_bank": "מג'נטה כבשה בנק",
+  "block.villagerunknown-villagercoin.light_blue_sheep_bank": "תכלת כחול כבשה בנק",
+  "block.villagerunknown-villagercoin.yellow_sheep_bank": "צהוב כבשה בנק",
+  "block.villagerunknown-villagercoin.lime_sheep_bank": "ליים כבשה בנק",
+  "block.villagerunknown-villagercoin.pink_sheep_bank": "ורוד כבשה בנק",
+  "block.villagerunknown-villagercoin.gray_sheep_bank": "אפור כבשה בנק",
+  "block.villagerunknown-villagercoin.light_gray_sheep_bank": "אפור בהיר אפור כבשה בנק",
+  "block.villagerunknown-villagercoin.cyan_sheep_bank": "ציאן כבשה בנק",
+  "block.villagerunknown-villagercoin.purple_sheep_bank": "סגול כבשה בנק",
+  "block.villagerunknown-villagercoin.blue_sheep_bank": "כחול כבשה בנק",
+  "block.villagerunknown-villagercoin.brown_sheep_bank": "חום כבשה בנק",
+  "block.villagerunknown-villagercoin.green_sheep_bank": "ירוק כבשה בנק",
+  "block.villagerunknown-villagercoin.red_sheep_bank": "אדום כבשה בנק",
+  "block.villagerunknown-villagercoin.black_sheep_bank": "שחור כבשה בנק",
+
+  "block.villagerunknown-villagercoin.cow_bank": "פרה בנק",
+  "block.villagerunknown-villagercoin.red_mooshroom_bank": "אדום מושרום בנק",
+  "block.villagerunknown-villagercoin.brown_mooshroom_bank": "חום מושרום בנק",
+
+  "block.villagerunknown-villagercoin.bee_bank": "דבורה בנק",
+  "block.villagerunknown-villagercoin.angry_bee_bank": "דבורה כועסת דבורה בנק",
+
+  "block.villagerunknown-villagercoin.ravager_bank": "משחית בנק",
+
+  "block.villagerunknown-villagercoin.guardian_bank": "שומר בנק",
+  "block.villagerunknown-villagercoin.elder_guardian_bank": "שומר עתיק שומר בנק",
+
+  "block.villagerunknown-villagercoin.hoglin_bank": "הוגלין בנק",
+  "block.villagerunknown-villagercoin.zoglin_bank": "זוגלין בנק",
+
+  "block.villagerunknown-villagercoin.pufferfish_bank": "דג נפוח בנק",
+  "block.villagerunknown-villagercoin.slime_bank": "סליים בנק",
+  "block.villagerunknown-villagercoin.magma_cube_bank": "קוביית מגמה קובייה בנק"
+
+}

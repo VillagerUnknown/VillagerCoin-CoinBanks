@@ -1,0 +1,78 @@
+{
+
+  "text.autoconfig.villagerunknown-coinbanks.title": "VillagerUnknown's Coin Banks for Villager Coin",
+
+  "block.villagerunknown-villagercoin.terracotta_coin_bank": "टेराकोटा सिक्का बैंक",
+  "block.villagerunknown-villagercoin.white_terracotta_coin_bank": "सफेद टेराकोटा सिक्का बैंक",
+  "block.villagerunknown-villagercoin.orange_terracotta_coin_bank": "नारंगी टेराकोटा सिक्का बैंक",
+  "block.villagerunknown-villagercoin.magenta_terracotta_coin_bank": "मैजेंटा टेराकोटा सिक्का बैंक",
+  "block.villagerunknown-villagercoin.light_blue_terracotta_coin_bank": "हल्का नीला नीला टेराकोटा सिक्का बैंक",
+  "block.villagerunknown-villagercoin.yellow_terracotta_coin_bank": "पीला टेराकोटा सिक्का बैंक",
+  "block.villagerunknown-villagercoin.lime_terracotta_coin_bank": "नीबू हरा टेराकोटा सिक्का बैंक",
+  "block.villagerunknown-villagercoin.pink_terracotta_coin_bank": "गुलाबी टेराकोटा सिक्का बैंक",
+  "block.villagerunknown-villagercoin.gray_terracotta_coin_bank": "धूसर टेराकोटा सिक्का बैंक",
+  "block.villagerunknown-villagercoin.light_gray_terracotta_coin_bank": "हल्का धूसर धूसर टेराकोटा सिक्का बैंक",
+  "block.villagerunknown-villagercoin.cyan_terracotta_coin_bank": "सियान टेराकोटा सिक्का बैंक",
+  "block.villagerunknown-villagercoin.purple_terracotta_coin_bank": "बैंगनी टेराकोटा सिक्का बैंक",
+  "block.villagerunknown-villagercoin.blue_terracotta_coin_bank": "नीला टेराकोटा सिक्का बैंक",
+  "block.villagerunknown-villagercoin.brown_terracotta_coin_bank": "भूरा टेराकोटा सिक्का बैंक",
+  "block.villagerunknown-villagercoin.green_terracotta_coin_bank": "हरा टेराकोटा सिक्का बैंक",
+  "block.villagerunknown-villagercoin.red_terracotta_coin_bank": "लाल टेराकोटा सिक्का बैंक",
+  "block.villagerunknown-villagercoin.black_terracotta_coin_bank": "काला टेराकोटा सिक्का बैंक",
+
+  "block.villagerunknown-villagercoin.copper_coin_bank": "तांबा सिक्का बैंक",
+  "block.villagerunknown-villagercoin.iron_coin_bank": "लोहा सिक्का बैंक",
+  "block.villagerunknown-villagercoin.gold_coin_bank": "सोना सिक्का बैंक",
+  "block.villagerunknown-villagercoin.diamond_coin_bank": "हीरा सिक्का बैंक",
+  "block.villagerunknown-villagercoin.emerald_coin_bank": "पन्ना सिक्का बैंक",
+  "block.villagerunknown-villagercoin.netherite_coin_bank": "नेदराइट सिक्का बैंक",
+
+  "block.villagerunknown-villagercoin.amethyst_coin_bank": "अमेथिस्ट सिक्का बैंक",
+
+  "block.villagerunknown-villagercoin.obsidian_coin_bank": "ओब्सिडियन सिक्का बैंक",
+  "block.villagerunknown-villagercoin.crying_obsidian_coin_bank": "रोता हुआ ओब्सिडियन सिक्का बैंक",
+
+  "block.villagerunknown-villagercoin.cold_piggy_bank": "ठंडी पिग्गी Piggy बैंक",
+  "block.villagerunknown-villagercoin.temperate_piggy_bank": "मध्यम पिग्गी Piggy बैंक",
+  "block.villagerunknown-villagercoin.warm_piggy_bank": "गर्म पिग्गी Piggy बैंक",
+
+  "block.villagerunknown-villagercoin.piglin_bank": "पिगलिन बैंक",
+  "block.villagerunknown-villagercoin.zombified_piglin_bank": "ज़ॉम्बी पिगलिन पिगलिन बैंक",
+
+  "block.villagerunknown-villagercoin.white_sheep_bank": "सफेद भेड़ बैंक",
+  "block.villagerunknown-villagercoin.orange_sheep_bank": "नारंगी भेड़ बैंक",
+  "block.villagerunknown-villagercoin.magenta_sheep_bank": "मैजेंटा भेड़ बैंक",
+  "block.villagerunknown-villagercoin.light_blue_sheep_bank": "हल्का नीला नीला भेड़ बैंक",
+  "block.villagerunknown-villagercoin.yellow_sheep_bank": "पीला भेड़ बैंक",
+  "block.villagerunknown-villagercoin.lime_sheep_bank": "नीबू हरा भेड़ बैंक",
+  "block.villagerunknown-villagercoin.pink_sheep_bank": "गुलाबी भेड़ बैंक",
+  "block.villagerunknown-villagercoin.gray_sheep_bank": "धूसर भेड़ बैंक",
+  "block.villagerunknown-villagercoin.light_gray_sheep_bank": "हल्का धूसर धूसर भेड़ बैंक",
+  "block.villagerunknown-villagercoin.cyan_sheep_bank": "सियान भेड़ बैंक",
+  "block.villagerunknown-villagercoin.purple_sheep_bank": "बैंगनी भेड़ बैंक",
+  "block.villagerunknown-villagercoin.blue_sheep_bank": "नीला भेड़ बैंक",
+  "block.villagerunknown-villagercoin.brown_sheep_bank": "भूरा भेड़ बैंक",
+  "block.villagerunknown-villagercoin.green_sheep_bank": "हरा भेड़ बैंक",
+  "block.villagerunknown-villagercoin.red_sheep_bank": "लाल भेड़ बैंक",
+  "block.villagerunknown-villagercoin.black_sheep_bank": "काला भेड़ बैंक",
+
+  "block.villagerunknown-villagercoin.cow_bank": "गाय बैंक",
+  "block.villagerunknown-villagercoin.red_mooshroom_bank": "लाल मूशरूम बैंक",
+  "block.villagerunknown-villagercoin.brown_mooshroom_bank": "भूरा मूशरूम बैंक",
+
+  "block.villagerunknown-villagercoin.bee_bank": "मधुमक्खी बैंक",
+  "block.villagerunknown-villagercoin.angry_bee_bank": "गुस्सैल मधुमक्खी मधुमक्खी बैंक",
+
+  "block.villagerunknown-villagercoin.ravager_bank": "रैवेजर बैंक",
+
+  "block.villagerunknown-villagercoin.guardian_bank": "गार्डियन बैंक",
+  "block.villagerunknown-villagercoin.elder_guardian_bank": "प्राचीन गार्डियन गार्डियन बैंक",
+
+  "block.villagerunknown-villagercoin.hoglin_bank": "हॉग्लिन बैंक",
+  "block.villagerunknown-villagercoin.zoglin_bank": "ज़ॉग्लिन बैंक",
+
+  "block.villagerunknown-villagercoin.pufferfish_bank": "गुब्बारा मछली बैंक",
+  "block.villagerunknown-villagercoin.slime_bank": "स्लाइम बैंक",
+  "block.villagerunknown-villagercoin.magma_cube_bank": "मैग्मा क्यूब क्यूब बैंक"
+
+}

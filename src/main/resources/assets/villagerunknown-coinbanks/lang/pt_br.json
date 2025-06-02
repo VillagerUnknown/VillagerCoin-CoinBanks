@@ -1,0 +1,78 @@
+{
+
+  "text.autoconfig.villagerunknown-coinbanks.title": "VillagerUnknown's Coin Banks for Villager Coin",
+
+  "block.villagerunknown-villagercoin.terracotta_coin_bank": "Banco de Moedas de Terracota",
+  "block.villagerunknown-villagercoin.white_terracotta_coin_bank": "Banco de Moedas de Branca Terracota",
+  "block.villagerunknown-villagercoin.orange_terracotta_coin_bank": "Banco de Moedas de Laranja Terracota",
+  "block.villagerunknown-villagercoin.magenta_terracotta_coin_bank": "Banco de Moedas de Magenta Terracota",
+  "block.villagerunknown-villagercoin.light_blue_terracotta_coin_bank": "Banco de Moedas de Azul Claro Azul Terracota",
+  "block.villagerunknown-villagercoin.yellow_terracotta_coin_bank": "Banco de Moedas de Amarela Terracota",
+  "block.villagerunknown-villagercoin.lime_terracotta_coin_bank": "Banco de Moedas de Verde-limão Terracota",
+  "block.villagerunknown-villagercoin.pink_terracotta_coin_bank": "Banco de Moedas de Rosa Terracota",
+  "block.villagerunknown-villagercoin.gray_terracotta_coin_bank": "Banco de Moedas de Cinza Terracota",
+  "block.villagerunknown-villagercoin.light_gray_terracotta_coin_bank": "Banco de Moedas de Cinza Claro Cinza Terracota",
+  "block.villagerunknown-villagercoin.cyan_terracotta_coin_bank": "Banco de Moedas de Ciano Terracota",
+  "block.villagerunknown-villagercoin.purple_terracotta_coin_bank": "Banco de Moedas de Roxa Terracota",
+  "block.villagerunknown-villagercoin.blue_terracotta_coin_bank": "Banco de Moedas de Azul Terracota",
+  "block.villagerunknown-villagercoin.brown_terracotta_coin_bank": "Banco de Moedas de Marrom Terracota",
+  "block.villagerunknown-villagercoin.green_terracotta_coin_bank": "Banco de Moedas de Verde Terracota",
+  "block.villagerunknown-villagercoin.red_terracotta_coin_bank": "Banco de Moedas de Vermelha Terracota",
+  "block.villagerunknown-villagercoin.black_terracotta_coin_bank": "Banco de Moedas de Preta Terracota",
+
+  "block.villagerunknown-villagercoin.copper_coin_bank": "Banco de Moedas de Cobre",
+  "block.villagerunknown-villagercoin.iron_coin_bank": "Banco de Moedas de Ferro",
+  "block.villagerunknown-villagercoin.gold_coin_bank": "Banco de Moedas de Ouro",
+  "block.villagerunknown-villagercoin.diamond_coin_bank": "Banco de Moedas de Diamante",
+  "block.villagerunknown-villagercoin.emerald_coin_bank": "Banco de Moedas de Esmeralda",
+  "block.villagerunknown-villagercoin.netherite_coin_bank": "Banco de Moedas de Netherita",
+
+  "block.villagerunknown-villagercoin.amethyst_coin_bank": "Banco de Moedas de Ametista",
+
+  "block.villagerunknown-villagercoin.obsidian_coin_bank": "Banco de Moedas de Obsidiana",
+  "block.villagerunknown-villagercoin.crying_obsidian_coin_bank": "Banco de Moedas de Chorada Obsidiana",
+
+  "block.villagerunknown-villagercoin.cold_piggy_bank": "Banco de Porquinho Frio Piggy",
+  "block.villagerunknown-villagercoin.temperate_piggy_bank": "Banco de Porquinho Temperado Piggy",
+  "block.villagerunknown-villagercoin.warm_piggy_bank": "Banco de Porquinho Quente Piggy",
+
+  "block.villagerunknown-villagercoin.piglin_bank": "Banco de Piglin",
+  "block.villagerunknown-villagercoin.zombified_piglin_bank": "Banco de Piglin Zumbificado Piglin",
+
+  "block.villagerunknown-villagercoin.white_sheep_bank": "Banco de Branca Ovelha",
+  "block.villagerunknown-villagercoin.orange_sheep_bank": "Banco de Laranja Ovelha",
+  "block.villagerunknown-villagercoin.magenta_sheep_bank": "Banco de Magenta Ovelha",
+  "block.villagerunknown-villagercoin.light_blue_sheep_bank": "Banco de Azul Claro Azul Ovelha",
+  "block.villagerunknown-villagercoin.yellow_sheep_bank": "Banco de Amarela Ovelha",
+  "block.villagerunknown-villagercoin.lime_sheep_bank": "Banco de Verde-limão Ovelha",
+  "block.villagerunknown-villagercoin.pink_sheep_bank": "Banco de Rosa Ovelha",
+  "block.villagerunknown-villagercoin.gray_sheep_bank": "Banco de Cinza Ovelha",
+  "block.villagerunknown-villagercoin.light_gray_sheep_bank": "Banco de Cinza Claro Cinza Ovelha",
+  "block.villagerunknown-villagercoin.cyan_sheep_bank": "Banco de Ciano Ovelha",
+  "block.villagerunknown-villagercoin.purple_sheep_bank": "Banco de Roxa Ovelha",
+  "block.villagerunknown-villagercoin.blue_sheep_bank": "Banco de Azul Ovelha",
+  "block.villagerunknown-villagercoin.brown_sheep_bank": "Banco de Marrom Ovelha",
+  "block.villagerunknown-villagercoin.green_sheep_bank": "Banco de Verde Ovelha",
+  "block.villagerunknown-villagercoin.red_sheep_bank": "Banco de Vermelha Ovelha",
+  "block.villagerunknown-villagercoin.black_sheep_bank": "Banco de Preta Ovelha",
+
+  "block.villagerunknown-villagercoin.cow_bank": "Banco de Vaca",
+  "block.villagerunknown-villagercoin.red_mooshroom_bank": "Banco de Vermelha Mooshroom",
+  "block.villagerunknown-villagercoin.brown_mooshroom_bank": "Banco de Marrom Mooshroom",
+
+  "block.villagerunknown-villagercoin.bee_bank": "Banco de Abelha",
+  "block.villagerunknown-villagercoin.angry_bee_bank": "Banco de Abelha Irritada Abelha",
+
+  "block.villagerunknown-villagercoin.ravager_bank": "Banco de Devastador",
+
+  "block.villagerunknown-villagercoin.guardian_bank": "Banco de Guardião",
+  "block.villagerunknown-villagercoin.elder_guardian_bank": "Banco de Guardião Ancião Guardião",
+
+  "block.villagerunknown-villagercoin.hoglin_bank": "Banco de Hoglin",
+  "block.villagerunknown-villagercoin.zoglin_bank": "Banco de Zoglin",
+
+  "block.villagerunknown-villagercoin.pufferfish_bank": "Banco de Baiacu",
+  "block.villagerunknown-villagercoin.slime_bank": "Banco de Slime",
+  "block.villagerunknown-villagercoin.magma_cube_bank": "Banco de Cubo de Magma Cubo"
+
+}

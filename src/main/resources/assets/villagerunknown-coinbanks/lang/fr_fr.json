@@ -1,0 +1,78 @@
+{
+
+  "text.autoconfig.villagerunknown-coinbanks.title": "VillagerUnknown's Coin Banks for Villager Coin",
+
+  "block.villagerunknown-villagercoin.terracotta_coin_bank": "Banque de pièces en Terre cuite",
+  "block.villagerunknown-villagercoin.white_terracotta_coin_bank": "Banque de pièces en Blanche Terre cuite",
+  "block.villagerunknown-villagercoin.orange_terracotta_coin_bank": "Banque de pièces en Orange Terre cuite",
+  "block.villagerunknown-villagercoin.magenta_terracotta_coin_bank": "Banque de pièces en Magenta Terre cuite",
+  "block.villagerunknown-villagercoin.light_blue_terracotta_coin_bank": "Banque de pièces en Bleu clair Bleu Terre cuite",
+  "block.villagerunknown-villagercoin.yellow_terracotta_coin_bank": "Banque de pièces en Jaune Terre cuite",
+  "block.villagerunknown-villagercoin.lime_terracotta_coin_bank": "Banque de pièces en Vert citron Terre cuite",
+  "block.villagerunknown-villagercoin.pink_terracotta_coin_bank": "Banque de pièces en Rose Terre cuite",
+  "block.villagerunknown-villagercoin.gray_terracotta_coin_bank": "Banque de pièces en Grise Terre cuite",
+  "block.villagerunknown-villagercoin.light_gray_terracotta_coin_bank": "Banque de pièces en Gris clair Grise Terre cuite",
+  "block.villagerunknown-villagercoin.cyan_terracotta_coin_bank": "Banque de pièces en Cyan Terre cuite",
+  "block.villagerunknown-villagercoin.purple_terracotta_coin_bank": "Banque de pièces en Violet Terre cuite",
+  "block.villagerunknown-villagercoin.blue_terracotta_coin_bank": "Banque de pièces en Bleu Terre cuite",
+  "block.villagerunknown-villagercoin.brown_terracotta_coin_bank": "Banque de pièces en Marron Terre cuite",
+  "block.villagerunknown-villagercoin.green_terracotta_coin_bank": "Banque de pièces en Verte Terre cuite",
+  "block.villagerunknown-villagercoin.red_terracotta_coin_bank": "Banque de pièces en Rouge Terre cuite",
+  "block.villagerunknown-villagercoin.black_terracotta_coin_bank": "Banque de pièces en Noire Terre cuite",
+
+  "block.villagerunknown-villagercoin.copper_coin_bank": "Banque de pièces en Cuivre",
+  "block.villagerunknown-villagercoin.iron_coin_bank": "Banque de pièces en Fer",
+  "block.villagerunknown-villagercoin.gold_coin_bank": "Banque de pièces en Or",
+  "block.villagerunknown-villagercoin.diamond_coin_bank": "Banque de pièces en Diamant",
+  "block.villagerunknown-villagercoin.emerald_coin_bank": "Banque de pièces en Émeraude",
+  "block.villagerunknown-villagercoin.netherite_coin_bank": "Banque de pièces en Netherite",
+
+  "block.villagerunknown-villagercoin.amethyst_coin_bank": "Banque de pièces en Améthyste",
+
+  "block.villagerunknown-villagercoin.obsidian_coin_bank": "Banque de pièces en Obsidienne",
+  "block.villagerunknown-villagercoin.crying_obsidian_coin_bank": "Banque de pièces en Pleurante Obsidienne",
+
+  "block.villagerunknown-villagercoin.cold_piggy_bank": "Banque de Cochonnet froid Piggy",
+  "block.villagerunknown-villagercoin.temperate_piggy_bank": "Banque de Cochonnet tempéré Piggy",
+  "block.villagerunknown-villagercoin.warm_piggy_bank": "Banque de Cochonnet chaud Piggy",
+
+  "block.villagerunknown-villagercoin.piglin_bank": "Banque de Piglin",
+  "block.villagerunknown-villagercoin.zombified_piglin_bank": "Banque de Piglin zombifié Piglin",
+
+  "block.villagerunknown-villagercoin.white_sheep_bank": "Banque de Blanche Mouton",
+  "block.villagerunknown-villagercoin.orange_sheep_bank": "Banque de Orange Mouton",
+  "block.villagerunknown-villagercoin.magenta_sheep_bank": "Banque de Magenta Mouton",
+  "block.villagerunknown-villagercoin.light_blue_sheep_bank": "Banque de Bleu clair Bleu Mouton",
+  "block.villagerunknown-villagercoin.yellow_sheep_bank": "Banque de Jaune Mouton",
+  "block.villagerunknown-villagercoin.lime_sheep_bank": "Banque de Vert citron Mouton",
+  "block.villagerunknown-villagercoin.pink_sheep_bank": "Banque de Rose Mouton",
+  "block.villagerunknown-villagercoin.gray_sheep_bank": "Banque de Grise Mouton",
+  "block.villagerunknown-villagercoin.light_gray_sheep_bank": "Banque de Gris clair Grise Mouton",
+  "block.villagerunknown-villagercoin.cyan_sheep_bank": "Banque de Cyan Mouton",
+  "block.villagerunknown-villagercoin.purple_sheep_bank": "Banque de Violet Mouton",
+  "block.villagerunknown-villagercoin.blue_sheep_bank": "Banque de Bleu Mouton",
+  "block.villagerunknown-villagercoin.brown_sheep_bank": "Banque de Marron Mouton",
+  "block.villagerunknown-villagercoin.green_sheep_bank": "Banque de Verte Mouton",
+  "block.villagerunknown-villagercoin.red_sheep_bank": "Banque de Rouge Mouton",
+  "block.villagerunknown-villagercoin.black_sheep_bank": "Banque de Noire Mouton",
+
+  "block.villagerunknown-villagercoin.cow_bank": "Banque de Vache",
+  "block.villagerunknown-villagercoin.red_mooshroom_bank": "Banque de Rouge Mooshroom",
+  "block.villagerunknown-villagercoin.brown_mooshroom_bank": "Banque de Marron Mooshroom",
+
+  "block.villagerunknown-villagercoin.bee_bank": "Banque de Abeille",
+  "block.villagerunknown-villagercoin.angry_bee_bank": "Banque de Abeille en colère Abeille",
+
+  "block.villagerunknown-villagercoin.ravager_bank": "Banque de Ravageur",
+
+  "block.villagerunknown-villagercoin.guardian_bank": "Banque de Gardien",
+  "block.villagerunknown-villagercoin.elder_guardian_bank": "Banque de Gardien ancien Gardien",
+
+  "block.villagerunknown-villagercoin.hoglin_bank": "Banque de Hoglin",
+  "block.villagerunknown-villagercoin.zoglin_bank": "Banque de Zoglin",
+
+  "block.villagerunknown-villagercoin.pufferfish_bank": "Banque de Poisson-globe",
+  "block.villagerunknown-villagercoin.slime_bank": "Banque de Slime",
+  "block.villagerunknown-villagercoin.magma_cube_bank": "Banque de Cube de magma Cube"
+
+}

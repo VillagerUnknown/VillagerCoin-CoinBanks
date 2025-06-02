@@ -1,0 +1,78 @@
+{
+
+  "text.autoconfig.villagerunknown-coinbanks.title": "VillagerUnknown's Coin Banks for Villager Coin",
+
+  "block.villagerunknown-villagercoin.terracotta_coin_bank": "陶瓦硬币银行",
+  "block.villagerunknown-villagercoin.white_terracotta_coin_bank": "白色陶瓦硬币银行",
+  "block.villagerunknown-villagercoin.orange_terracotta_coin_bank": "橙色陶瓦硬币银行",
+  "block.villagerunknown-villagercoin.magenta_terracotta_coin_bank": "品红色陶瓦硬币银行",
+  "block.villagerunknown-villagercoin.light_blue_terracotta_coin_bank": "淡蓝色陶瓦硬币银行",
+  "block.villagerunknown-villagercoin.yellow_terracotta_coin_bank": "黄色陶瓦硬币银行",
+  "block.villagerunknown-villagercoin.lime_terracotta_coin_bank": "黄绿色陶瓦硬币银行",
+  "block.villagerunknown-villagercoin.pink_terracotta_coin_bank": "粉色陶瓦硬币银行",
+  "block.villagerunknown-villagercoin.gray_terracotta_coin_bank": "灰色陶瓦硬币银行",
+  "block.villagerunknown-villagercoin.light_gray_terracotta_coin_bank": "淡灰色陶瓦硬币银行",
+  "block.villagerunknown-villagercoin.cyan_terracotta_coin_bank": "青色陶瓦硬币银行",
+  "block.villagerunknown-villagercoin.purple_terracotta_coin_bank": "紫色陶瓦硬币银行",
+  "block.villagerunknown-villagercoin.blue_terracotta_coin_bank": "蓝色陶瓦硬币银行",
+  "block.villagerunknown-villagercoin.brown_terracotta_coin_bank": "棕色陶瓦硬币银行",
+  "block.villagerunknown-villagercoin.green_terracotta_coin_bank": "绿色陶瓦硬币银行",
+  "block.villagerunknown-villagercoin.red_terracotta_coin_bank": "红色陶瓦硬币银行",
+  "block.villagerunknown-villagercoin.black_terracotta_coin_bank": "黑色陶瓦硬币银行",
+
+  "block.villagerunknown-villagercoin.copper_coin_bank": "铜硬币银行",
+  "block.villagerunknown-villagercoin.iron_coin_bank": "铁硬币银行",
+  "block.villagerunknown-villagercoin.gold_coin_bank": "金硬币银行",
+  "block.villagerunknown-villagercoin.diamond_coin_bank": "钻石硬币银行",
+  "block.villagerunknown-villagercoin.emerald_coin_bank": "绿宝石硬币银行",
+  "block.villagerunknown-villagercoin.netherite_coin_bank": "下界合金硬币银行",
+
+  "block.villagerunknown-villagercoin.amethyst_coin_bank": "紫水晶硬币银行",
+
+  "block.villagerunknown-villagercoin.obsidian_coin_bank": "黑曜石硬币银行",
+  "block.villagerunknown-villagercoin.crying_obsidian_coin_bank": "哭泣的黑曜石硬币银行",
+
+  "block.villagerunknown-villagercoin.cold_piggy_bank": "寒带猪猪银行",
+  "block.villagerunknown-villagercoin.temperate_piggy_bank": "温带猪猪银行",
+  "block.villagerunknown-villagercoin.warm_piggy_bank": "热带猪猪银行",
+
+  "block.villagerunknown-villagercoin.piglin_bank": "猪灵银行",
+  "block.villagerunknown-villagercoin.zombified_piglin_bank": "僵尸猪灵银行",
+
+  "block.villagerunknown-villagercoin.white_sheep_bank": "白色羊银行",
+  "block.villagerunknown-villagercoin.orange_sheep_bank": "橙色羊银行",
+  "block.villagerunknown-villagercoin.magenta_sheep_bank": "品红色羊银行",
+  "block.villagerunknown-villagercoin.light_blue_sheep_bank": "淡蓝色羊银行",
+  "block.villagerunknown-villagercoin.yellow_sheep_bank": "黄色羊银行",
+  "block.villagerunknown-villagercoin.lime_sheep_bank": "黄绿色羊银行",
+  "block.villagerunknown-villagercoin.pink_sheep_bank": "粉色羊银行",
+  "block.villagerunknown-villagercoin.gray_sheep_bank": "灰色羊银行",
+  "block.villagerunknown-villagercoin.light_gray_sheep_bank": "淡灰色羊银行",
+  "block.villagerunknown-villagercoin.cyan_sheep_bank": "青色羊银行",
+  "block.villagerunknown-villagercoin.purple_sheep_bank": "紫色羊银行",
+  "block.villagerunknown-villagercoin.blue_sheep_bank": "蓝色羊银行",
+  "block.villagerunknown-villagercoin.brown_sheep_bank": "棕色羊银行",
+  "block.villagerunknown-villagercoin.green_sheep_bank": "绿色羊银行",
+  "block.villagerunknown-villagercoin.red_sheep_bank": "红色羊银行",
+  "block.villagerunknown-villagercoin.black_sheep_bank": "黑色羊银行",
+
+  "block.villagerunknown-villagercoin.cow_bank": "奶牛银行",
+  "block.villagerunknown-villagercoin.red_mooshroom_bank": "红色哞菇牛银行",
+  "block.villagerunknown-villagercoin.brown_mooshroom_bank": "棕色哞菇牛银行",
+
+  "block.villagerunknown-villagercoin.bee_bank": "蜜蜂银行",
+  "block.villagerunknown-villagercoin.angry_bee_bank": "愤怒的蜜蜂银行",
+
+  "block.villagerunknown-villagercoin.ravager_bank": "劫掠兽银行",
+
+  "block.villagerunknown-villagercoin.guardian_bank": "守卫者银行",
+  "block.villagerunknown-villagercoin.elder_guardian_bank": "远古守卫者银行",
+
+  "block.villagerunknown-villagercoin.hoglin_bank": "疣猪兽银行",
+  "block.villagerunknown-villagercoin.zoglin_bank": "僵尸疣猪兽银行",
+
+  "block.villagerunknown-villagercoin.pufferfish_bank": "河豚银行",
+  "block.villagerunknown-villagercoin.slime_bank": "史莱姆银行",
+  "block.villagerunknown-villagercoin.magma_cube_bank": "岩浆怪银行"
+
+}

@@ -1,0 +1,78 @@
+{
+
+  "text.autoconfig.villagerunknown-coinbanks.title": "VillagerUnknown's Coin Banks for Villager Coin",
+
+  "block.villagerunknown-villagercoin.terracotta_coin_bank": "Münzbank aus Terracotta",
+  "block.villagerunknown-villagercoin.white_terracotta_coin_bank": "Münzbank aus Weiß Terracotta",
+  "block.villagerunknown-villagercoin.orange_terracotta_coin_bank": "Münzbank aus Orange Terracotta",
+  "block.villagerunknown-villagercoin.magenta_terracotta_coin_bank": "Münzbank aus Magenta Terracotta",
+  "block.villagerunknown-villagercoin.light_blue_terracotta_coin_bank": "Münzbank aus Hellblau Blau Terracotta",
+  "block.villagerunknown-villagercoin.yellow_terracotta_coin_bank": "Münzbank aus Gelb Terracotta",
+  "block.villagerunknown-villagercoin.lime_terracotta_coin_bank": "Münzbank aus Hellgrün Terracotta",
+  "block.villagerunknown-villagercoin.pink_terracotta_coin_bank": "Münzbank aus Rosa Terracotta",
+  "block.villagerunknown-villagercoin.gray_terracotta_coin_bank": "Münzbank aus Grau Terracotta",
+  "block.villagerunknown-villagercoin.light_gray_terracotta_coin_bank": "Münzbank aus Hellgrau Grau Terracotta",
+  "block.villagerunknown-villagercoin.cyan_terracotta_coin_bank": "Münzbank aus Cyan Terracotta",
+  "block.villagerunknown-villagercoin.purple_terracotta_coin_bank": "Münzbank aus Lila Terracotta",
+  "block.villagerunknown-villagercoin.blue_terracotta_coin_bank": "Münzbank aus Blau Terracotta",
+  "block.villagerunknown-villagercoin.brown_terracotta_coin_bank": "Münzbank aus Braun Terracotta",
+  "block.villagerunknown-villagercoin.green_terracotta_coin_bank": "Münzbank aus Grün Terracotta",
+  "block.villagerunknown-villagercoin.red_terracotta_coin_bank": "Münzbank aus Rot Terracotta",
+  "block.villagerunknown-villagercoin.black_terracotta_coin_bank": "Münzbank aus Schwarz Terracotta",
+
+  "block.villagerunknown-villagercoin.copper_coin_bank": "Münzbank aus Kupfer",
+  "block.villagerunknown-villagercoin.iron_coin_bank": "Münzbank aus Eisen",
+  "block.villagerunknown-villagercoin.gold_coin_bank": "Münzbank aus Gold",
+  "block.villagerunknown-villagercoin.diamond_coin_bank": "Münzbank aus Diamant",
+  "block.villagerunknown-villagercoin.emerald_coin_bank": "Münzbank aus Smaragd",
+  "block.villagerunknown-villagercoin.netherite_coin_bank": "Münzbank aus Netherit",
+
+  "block.villagerunknown-villagercoin.amethyst_coin_bank": "Münzbank aus Amethyst",
+
+  "block.villagerunknown-villagercoin.obsidian_coin_bank": "Münzbank aus Obsidian",
+  "block.villagerunknown-villagercoin.crying_obsidian_coin_bank": "Münzbank aus Crying Obsidian",
+
+  "block.villagerunknown-villagercoin.cold_piggy_bank": "Bank aus Kalte Schweinchen Piggy",
+  "block.villagerunknown-villagercoin.temperate_piggy_bank": "Bank aus Gemäßigte Schweinchen Piggy",
+  "block.villagerunknown-villagercoin.warm_piggy_bank": "Bank aus Warme Schweinchen Piggy",
+
+  "block.villagerunknown-villagercoin.piglin_bank": "Bank aus Piglin",
+  "block.villagerunknown-villagercoin.zombified_piglin_bank": "Bank aus Zombifizierter Piglin",
+
+  "block.villagerunknown-villagercoin.white_sheep_bank": "Bank aus Weiß Schaf",
+  "block.villagerunknown-villagercoin.orange_sheep_bank": "Bank aus Orange Schaf",
+  "block.villagerunknown-villagercoin.magenta_sheep_bank": "Bank aus Magenta Schaf",
+  "block.villagerunknown-villagercoin.light_blue_sheep_bank": "Bank aus Hellblau Blau Schaf",
+  "block.villagerunknown-villagercoin.yellow_sheep_bank": "Bank aus Gelb Schaf",
+  "block.villagerunknown-villagercoin.lime_sheep_bank": "Bank aus Hellgrün Schaf",
+  "block.villagerunknown-villagercoin.pink_sheep_bank": "Bank aus Rosa Schaf",
+  "block.villagerunknown-villagercoin.gray_sheep_bank": "Bank aus Grau Schaf",
+  "block.villagerunknown-villagercoin.light_gray_sheep_bank": "Bank aus Hellgrau Grau Schaf",
+  "block.villagerunknown-villagercoin.cyan_sheep_bank": "Bank aus Cyan Schaf",
+  "block.villagerunknown-villagercoin.purple_sheep_bank": "Bank aus Lila Schaf",
+  "block.villagerunknown-villagercoin.blue_sheep_bank": "Bank aus Blau Schaf",
+  "block.villagerunknown-villagercoin.brown_sheep_bank": "Bank aus Braun Schaf",
+  "block.villagerunknown-villagercoin.green_sheep_bank": "Bank aus Grün Schaf",
+  "block.villagerunknown-villagercoin.red_sheep_bank": "Bank aus Rot Schaf",
+  "block.villagerunknown-villagercoin.black_sheep_bank": "Bank aus Schwarz Schaf",
+
+  "block.villagerunknown-villagercoin.cow_bank": "Bank aus Kuh",
+  "block.villagerunknown-villagercoin.red_mooshroom_bank": "Bank aus Rot Mooshroom",
+  "block.villagerunknown-villagercoin.brown_mooshroom_bank": "Bank aus Braun Mooshroom",
+
+  "block.villagerunknown-villagercoin.bee_bank": "Bank aus Biene",
+  "block.villagerunknown-villagercoin.angry_bee_bank": "Bank aus Wütende Biene Biene",
+
+  "block.villagerunknown-villagercoin.ravager_bank": "Bank aus Verwüster",
+
+  "block.villagerunknown-villagercoin.guardian_bank": "Bank aus Wächter",
+  "block.villagerunknown-villagercoin.elder_guardian_bank": "Bank aus Älterer Wächter",
+
+  "block.villagerunknown-villagercoin.hoglin_bank": "Bank aus Hoglin",
+  "block.villagerunknown-villagercoin.zoglin_bank": "Bank aus Zoglin",
+
+  "block.villagerunknown-villagercoin.pufferfish_bank": "Bank aus Kugelfisch",
+  "block.villagerunknown-villagercoin.slime_bank": "Bank aus Schleim",
+  "block.villagerunknown-villagercoin.magma_cube_bank": "Bank aus Magmawürfel Cube"
+
+}

@@ -35,3 +35,19 @@ Adds various Coin Banks to Villager Coin that hold the total value of the coins 
 
 * Request features and report bugs at https://github.com/VillagerUnknown/VillagerCoin-CoinBanks/issues
 * View the changelog at https://github.com/VillagerUnknown/VillagerCoin-CoinBanks/blob/main/CHANGELOG.md
+
+### Supported Languages
+
+* English
+* Pirate English
+* Svenska (Swedish)
+* Français (French)
+* Italiano (Italian)
+* Deutsch (German)
+* Português do Brasil (Brazil Portuguese)
+* Русский (Russian)
+* 한국어 (Korean)
+* 简体中文 (Simplified Chinese)
+* 日本語 (Japanese)
+* हिन्दी (Hindi)
+* (Hebrew) עברית

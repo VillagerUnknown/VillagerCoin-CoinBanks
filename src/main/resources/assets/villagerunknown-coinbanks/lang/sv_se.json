@@ -1,0 +1,78 @@
+{
+
+  "text.autoconfig.villagerunknown-coinbanks.title": "VillagerUnknown's Coin Banks for Villager Coin",
+
+  "block.villagerunknown-villagercoin.terracotta_coin_bank": "Terrakotta Myntbank",
+  "block.villagerunknown-villagercoin.white_terracotta_coin_bank": "Vit Terrakotta Myntbank",
+  "block.villagerunknown-villagercoin.orange_terracotta_coin_bank": "Orange Terrakotta Myntbank",
+  "block.villagerunknown-villagercoin.magenta_terracotta_coin_bank": "Magenta Terrakotta Myntbank",
+  "block.villagerunknown-villagercoin.light_blue_terracotta_coin_bank": "Ljusblå Blå Terrakotta Myntbank",
+  "block.villagerunknown-villagercoin.yellow_terracotta_coin_bank": "Gul Terrakotta Myntbank",
+  "block.villagerunknown-villagercoin.lime_terracotta_coin_bank": "Limegrön Terrakotta Myntbank",
+  "block.villagerunknown-villagercoin.pink_terracotta_coin_bank": "Rosa Terrakotta Myntbank",
+  "block.villagerunknown-villagercoin.gray_terracotta_coin_bank": "Grå Terrakotta Myntbank",
+  "block.villagerunknown-villagercoin.light_gray_terracotta_coin_bank": "Ljusgrå Grå Terrakotta Myntbank",
+  "block.villagerunknown-villagercoin.cyan_terracotta_coin_bank": "Cyan Terrakotta Myntbank",
+  "block.villagerunknown-villagercoin.purple_terracotta_coin_bank": "Lila Terrakotta Myntbank",
+  "block.villagerunknown-villagercoin.blue_terracotta_coin_bank": "Blå Terrakotta Myntbank",
+  "block.villagerunknown-villagercoin.brown_terracotta_coin_bank": "Brun Terrakotta Myntbank",
+  "block.villagerunknown-villagercoin.green_terracotta_coin_bank": "Grön Terrakotta Myntbank",
+  "block.villagerunknown-villagercoin.red_terracotta_coin_bank": "Röd Terrakotta Myntbank",
+  "block.villagerunknown-villagercoin.black_terracotta_coin_bank": "Svart Terrakotta Myntbank",
+
+  "block.villagerunknown-villagercoin.copper_coin_bank": "Koppar Myntbank",
+  "block.villagerunknown-villagercoin.iron_coin_bank": "Järn Myntbank",
+  "block.villagerunknown-villagercoin.gold_coin_bank": "Guld Myntbank",
+  "block.villagerunknown-villagercoin.diamond_coin_bank": "Diamant Myntbank",
+  "block.villagerunknown-villagercoin.emerald_coin_bank": "Smaragd Myntbank",
+  "block.villagerunknown-villagercoin.netherite_coin_bank": "Netherit Myntbank",
+
+  "block.villagerunknown-villagercoin.amethyst_coin_bank": "Ametist Myntbank",
+
+  "block.villagerunknown-villagercoin.obsidian_coin_bank": "Obsidian Myntbank",
+  "block.villagerunknown-villagercoin.crying_obsidian_coin_bank": "Gråtande Obsidian Myntbank",
+
+  "block.villagerunknown-villagercoin.cold_piggy_bank": "Kall gris Piggy Bank",
+  "block.villagerunknown-villagercoin.temperate_piggy_bank": "Tempererad gris Piggy Bank",
+  "block.villagerunknown-villagercoin.warm_piggy_bank": "Varm gris Piggy Bank",
+
+  "block.villagerunknown-villagercoin.piglin_bank": "Piglin Bank",
+  "block.villagerunknown-villagercoin.zombified_piglin_bank": "Zombifierad Piglin Bank",
+
+  "block.villagerunknown-villagercoin.white_sheep_bank": "Vit Får Bank",
+  "block.villagerunknown-villagercoin.orange_sheep_bank": "Orange Får Bank",
+  "block.villagerunknown-villagercoin.magenta_sheep_bank": "Magenta Får Bank",
+  "block.villagerunknown-villagercoin.light_blue_sheep_bank": "Ljusblå Blå Får Bank",
+  "block.villagerunknown-villagercoin.yellow_sheep_bank": "Gul Får Bank",
+  "block.villagerunknown-villagercoin.lime_sheep_bank": "Limegrön Får Bank",
+  "block.villagerunknown-villagercoin.pink_sheep_bank": "Rosa Får Bank",
+  "block.villagerunknown-villagercoin.gray_sheep_bank": "Grå Får Bank",
+  "block.villagerunknown-villagercoin.light_gray_sheep_bank": "Ljusgrå Grå Får Bank",
+  "block.villagerunknown-villagercoin.cyan_sheep_bank": "Cyan Får Bank",
+  "block.villagerunknown-villagercoin.purple_sheep_bank": "Lila Får Bank",
+  "block.villagerunknown-villagercoin.blue_sheep_bank": "Blå Får Bank",
+  "block.villagerunknown-villagercoin.brown_sheep_bank": "Brun Får Bank",
+  "block.villagerunknown-villagercoin.green_sheep_bank": "Grön Får Bank",
+  "block.villagerunknown-villagercoin.red_sheep_bank": "Röd Får Bank",
+  "block.villagerunknown-villagercoin.black_sheep_bank": "Svart Får Bank",
+
+  "block.villagerunknown-villagercoin.cow_bank": "Ko Bank",
+  "block.villagerunknown-villagercoin.red_mooshroom_bank": "Röd Mooshroom Bank",
+  "block.villagerunknown-villagercoin.brown_mooshroom_bank": "Brun Mooshroom Bank",
+
+  "block.villagerunknown-villagercoin.bee_bank": "Bi Bank",
+  "block.villagerunknown-villagercoin.angry_bee_bank": "Arg bi Bi Bank",
+
+  "block.villagerunknown-villagercoin.ravager_bank": "Ravager Bank",
+
+  "block.villagerunknown-villagercoin.guardian_bank": "Väktare Bank",
+  "block.villagerunknown-villagercoin.elder_guardian_bank": "Äldreväktare Väktare Bank",
+
+  "block.villagerunknown-villagercoin.hoglin_bank": "Hoglin Bank",
+  "block.villagerunknown-villagercoin.zoglin_bank": "Zoglin Bank",
+
+  "block.villagerunknown-villagercoin.pufferfish_bank": "Blåsfisk Bank",
+  "block.villagerunknown-villagercoin.slime_bank": "Slem Bank",
+  "block.villagerunknown-villagercoin.magma_cube_bank": "Magmakub Kub Bank"
+
+}
