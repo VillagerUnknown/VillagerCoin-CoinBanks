@@ -57,7 +57,7 @@ dependencies {
     // VillagerUnknown's Platform
     modImplementation files("libs/villagerunknown-platform-1.3.0+1.21.1.jar")
     // VillagerUnknown's Villager Coin
-    modImplementation files("libs/villagerunknown-villagercoin-1.0.8+1.21.1.jar")
+    modImplementation files("libs/villagerunknown-villagercoin-1.0.10+1.21.1.jar")
 }
 
 processResources {
