@@ -1,0 +1,78 @@
+{
+
+  "text.autoconfig.villagerunknown-coinbanks.title": "VillagerUnknown's Coin Banks for Villager Coin",
+
+  "block.villagerunknown-villagercoin.terracotta_coin_bank": "Coin Hoard o’ Terracotta",
+  "block.villagerunknown-villagercoin.white_terracotta_coin_bank": "Coin Hoard o’ White Terracotta",
+  "block.villagerunknown-villagercoin.orange_terracotta_coin_bank": "Coin Hoard o’ Orange Terracotta",
+  "block.villagerunknown-villagercoin.magenta_terracotta_coin_bank": "Coin Hoard o’ Magenta Terracotta",
+  "block.villagerunknown-villagercoin.light_blue_terracotta_coin_bank": "Coin Hoard o’ Light Blue Terracotta",
+  "block.villagerunknown-villagercoin.yellow_terracotta_coin_bank": "Coin Hoard o’ Yellow Terracotta",
+  "block.villagerunknown-villagercoin.lime_terracotta_coin_bank": "Coin Hoard o’ Lime Terracotta",
+  "block.villagerunknown-villagercoin.pink_terracotta_coin_bank": "Coin Hoard o’ Pink Terracotta",
+  "block.villagerunknown-villagercoin.gray_terracotta_coin_bank": "Coin Hoard o’ Gray Terracotta",
+  "block.villagerunknown-villagercoin.light_gray_terracotta_coin_bank": "Coin Hoard o’ Light Gray Terracotta",
+  "block.villagerunknown-villagercoin.cyan_terracotta_coin_bank": "Coin Hoard o’ Cyan Terracotta",
+  "block.villagerunknown-villagercoin.purple_terracotta_coin_bank": "Coin Hoard o’ Purple Terracotta",
+  "block.villagerunknown-villagercoin.blue_terracotta_coin_bank": "Coin Hoard o’ Blue Terracotta",
+  "block.villagerunknown-villagercoin.brown_terracotta_coin_bank": "Coin Hoard o’ Brown Terracotta",
+  "block.villagerunknown-villagercoin.green_terracotta_coin_bank": "Coin Hoard o’ Green Terracotta",
+  "block.villagerunknown-villagercoin.red_terracotta_coin_bank": "Coin Hoard o’ Red Terracotta",
+  "block.villagerunknown-villagercoin.black_terracotta_coin_bank": "Coin Hoard o’ Black Terracotta",
+
+  "block.villagerunknown-villagercoin.copper_coin_bank": "Coin Hoard o’ Copper",
+  "block.villagerunknown-villagercoin.iron_coin_bank": "Coin Hoard o’ Iron",
+  "block.villagerunknown-villagercoin.gold_coin_bank": "Coin Hoard o’ Gold",
+  "block.villagerunknown-villagercoin.diamond_coin_bank": "Coin Hoard o’ Diamond",
+  "block.villagerunknown-villagercoin.emerald_coin_bank": "Coin Hoard o’ Emerald",
+  "block.villagerunknown-villagercoin.netherite_coin_bank": "Coin Hoard o’ Netherite",
+
+  "block.villagerunknown-villagercoin.amethyst_coin_bank": "Coin Hoard o’ Amethyst",
+
+  "block.villagerunknown-villagercoin.obsidian_coin_bank": "Coin Hoard o’ Obsidian",
+  "block.villagerunknown-villagercoin.crying_obsidian_coin_bank": "Coin Hoard o’ Crying Obsidian",
+
+  "block.villagerunknown-villagercoin.cold_piggy_bank": "Cold Piggy Bank o’ Plunder",
+  "block.villagerunknown-villagercoin.temperate_piggy_bank": "Temperate Piggy Bank o’ Plunder",
+  "block.villagerunknown-villagercoin.warm_piggy_bank": "Warm Piggy Bank o’ Plunder",
+
+  "block.villagerunknown-villagercoin.piglin_bank": "Piglin Bank o’ Plunder",
+  "block.villagerunknown-villagercoin.zombified_piglin_bank": "Zombified Piglin Bank o’ Plunder",
+
+  "block.villagerunknown-villagercoin.white_sheep_bank": "White Sheep Bank o’ Plunder",
+  "block.villagerunknown-villagercoin.orange_sheep_bank": "Orange Sheep Bank o’ Plunder",
+  "block.villagerunknown-villagercoin.magenta_sheep_bank": "Magenta Sheep Bank o’ Plunder",
+  "block.villagerunknown-villagercoin.light_blue_sheep_bank": "Light Blue Sheep Bank o’ Plunder",
+  "block.villagerunknown-villagercoin.yellow_sheep_bank": "Yellow Sheep Bank o’ Plunder",
+  "block.villagerunknown-villagercoin.lime_sheep_bank": "Lime Sheep Bank o’ Plunder",
+  "block.villagerunknown-villagercoin.pink_sheep_bank": "Pink Sheep Bank o’ Plunder",
+  "block.villagerunknown-villagercoin.gray_sheep_bank": "Gray Sheep Bank o’ Plunder",
+  "block.villagerunknown-villagercoin.light_gray_sheep_bank": "Light Gray Sheep Bank o’ Plunder",
+  "block.villagerunknown-villagercoin.cyan_sheep_bank": "Cyan Sheep Bank o’ Plunder",
+  "block.villagerunknown-villagercoin.purple_sheep_bank": "Purple Sheep Bank o’ Plunder",
+  "block.villagerunknown-villagercoin.blue_sheep_bank": "Blue Sheep Bank o’ Plunder",
+  "block.villagerunknown-villagercoin.brown_sheep_bank": "Brown Sheep Bank o’ Plunder",
+  "block.villagerunknown-villagercoin.green_sheep_bank": "Green Sheep Bank o’ Plunder",
+  "block.villagerunknown-villagercoin.red_sheep_bank": "Red Sheep Bank o’ Plunder",
+  "block.villagerunknown-villagercoin.black_sheep_bank": "Black Sheep Bank o’ Plunder",
+
+  "block.villagerunknown-villagercoin.cow_bank": "Cow Bank o’ Plunder",
+  "block.villagerunknown-villagercoin.red_mooshroom_bank": "Red Mooshroom Bank o’ Plunder",
+  "block.villagerunknown-villagercoin.brown_mooshroom_bank": "Brown Mooshroom Bank o’ Plunder",
+
+  "block.villagerunknown-villagercoin.bee_bank": "Bee Bank o’ Plunder",
+  "block.villagerunknown-villagercoin.angry_bee_bank": "Angry Bee Bank o’ Plunder",
+
+  "block.villagerunknown-villagercoin.ravager_bank": "Ravager Bank o’ Plunder",
+
+  "block.villagerunknown-villagercoin.guardian_bank": "Guardian Bank o’ Plunder",
+  "block.villagerunknown-villagercoin.elder_guardian_bank": "Elder Guardian Bank o’ Plunder",
+
+  "block.villagerunknown-villagercoin.hoglin_bank": "Hoglin Bank o’ Plunder",
+  "block.villagerunknown-villagercoin.zoglin_bank": "Zoglin Bank o’ Plunder",
+
+  "block.villagerunknown-villagercoin.pufferfish_bank": "Pufferfish Bank o’ Plunder",
+  "block.villagerunknown-villagercoin.slime_bank": "Slime Bank o’ Plunder",
+  "block.villagerunknown-villagercoin.magma_cube_bank": "Magma Cube Bank o’ Plunder"
+
+}

@@ -1,0 +1,78 @@
+{
+
+  "text.autoconfig.villagerunknown-coinbanks.title": "VillagerUnknown's Coin Banks for Villager Coin",
+
+  "block.villagerunknown-villagercoin.terracotta_coin_bank": "テラコッタコインバンク",
+  "block.villagerunknown-villagercoin.white_terracotta_coin_bank": "白テラコッタコインバンク",
+  "block.villagerunknown-villagercoin.orange_terracotta_coin_bank": "橙テラコッタコインバンク",
+  "block.villagerunknown-villagercoin.magenta_terracotta_coin_bank": "赤紫テラコッタコインバンク",
+  "block.villagerunknown-villagercoin.light_blue_terracotta_coin_bank": "水色青テラコッタコインバンク",
+  "block.villagerunknown-villagercoin.yellow_terracotta_coin_bank": "黄テラコッタコインバンク",
+  "block.villagerunknown-villagercoin.lime_terracotta_coin_bank": "黄緑テラコッタコインバンク",
+  "block.villagerunknown-villagercoin.pink_terracotta_coin_bank": "桃テラコッタコインバンク",
+  "block.villagerunknown-villagercoin.gray_terracotta_coin_bank": "灰テラコッタコインバンク",
+  "block.villagerunknown-villagercoin.light_gray_terracotta_coin_bank": "明灰灰テラコッタコインバンク",
+  "block.villagerunknown-villagercoin.cyan_terracotta_coin_bank": "青緑テラコッタコインバンク",
+  "block.villagerunknown-villagercoin.purple_terracotta_coin_bank": "紫テラコッタコインバンク",
+  "block.villagerunknown-villagercoin.blue_terracotta_coin_bank": "青テラコッタコインバンク",
+  "block.villagerunknown-villagercoin.brown_terracotta_coin_bank": "茶テラコッタコインバンク",
+  "block.villagerunknown-villagercoin.green_terracotta_coin_bank": "緑テラコッタコインバンク",
+  "block.villagerunknown-villagercoin.red_terracotta_coin_bank": "赤テラコッタコインバンク",
+  "block.villagerunknown-villagercoin.black_terracotta_coin_bank": "黒テラコッタコインバンク",
+
+  "block.villagerunknown-villagercoin.copper_coin_bank": "銅コインバンク",
+  "block.villagerunknown-villagercoin.iron_coin_bank": "鉄コインバンク",
+  "block.villagerunknown-villagercoin.gold_coin_bank": "金コインバンク",
+  "block.villagerunknown-villagercoin.diamond_coin_bank": "ダイヤモンドコインバンク",
+  "block.villagerunknown-villagercoin.emerald_coin_bank": "エメラルドコインバンク",
+  "block.villagerunknown-villagercoin.netherite_coin_bank": "ネザライトコインバンク",
+
+  "block.villagerunknown-villagercoin.amethyst_coin_bank": "アメジストコインバンク",
+
+  "block.villagerunknown-villagercoin.obsidian_coin_bank": "黒曜石コインバンク",
+  "block.villagerunknown-villagercoin.crying_obsidian_coin_bank": "泣く黒曜石コインバンク",
+
+  "block.villagerunknown-villagercoin.cold_piggy_bank": "寒帯ピギーバンク",
+  "block.villagerunknown-villagercoin.temperate_piggy_bank": "温帯ピギーバンク",
+  "block.villagerunknown-villagercoin.warm_piggy_bank": "熱帯ピギーバンク",
+
+  "block.villagerunknown-villagercoin.piglin_bank": "ピグリンバンク",
+  "block.villagerunknown-villagercoin.zombified_piglin_bank": "ゾンビ化したピグリンピグリンバンク",
+
+  "block.villagerunknown-villagercoin.white_sheep_bank": "白ヒツジバンク",
+  "block.villagerunknown-villagercoin.orange_sheep_bank": "橙ヒツジバンク",
+  "block.villagerunknown-villagercoin.magenta_sheep_bank": "赤紫ヒツジバンク",
+  "block.villagerunknown-villagercoin.light_blue_sheep_bank": "水色青ヒツジバンク",
+  "block.villagerunknown-villagercoin.yellow_sheep_bank": "黄ヒツジバンク",
+  "block.villagerunknown-villagercoin.lime_sheep_bank": "黄緑ヒツジバンク",
+  "block.villagerunknown-villagercoin.pink_sheep_bank": "桃ヒツジバンク",
+  "block.villagerunknown-villagercoin.gray_sheep_bank": "灰ヒツジバンク",
+  "block.villagerunknown-villagercoin.light_gray_sheep_bank": "明灰灰ヒツジバンク",
+  "block.villagerunknown-villagercoin.cyan_sheep_bank": "青緑ヒツジバンク",
+  "block.villagerunknown-villagercoin.purple_sheep_bank": "紫ヒツジバンク",
+  "block.villagerunknown-villagercoin.blue_sheep_bank": "青ヒツジバンク",
+  "block.villagerunknown-villagercoin.brown_sheep_bank": "茶ヒツジバンク",
+  "block.villagerunknown-villagercoin.green_sheep_bank": "緑ヒツジバンク",
+  "block.villagerunknown-villagercoin.red_sheep_bank": "赤ヒツジバンク",
+  "block.villagerunknown-villagercoin.black_sheep_bank": "黒ヒツジバンク",
+
+  "block.villagerunknown-villagercoin.cow_bank": "ウシバンク",
+  "block.villagerunknown-villagercoin.red_mooshroom_bank": "赤ムーシュルームバンク",
+  "block.villagerunknown-villagercoin.brown_mooshroom_bank": "茶ムーシュルームバンク",
+
+  "block.villagerunknown-villagercoin.bee_bank": "ハチバンク",
+  "block.villagerunknown-villagercoin.angry_bee_bank": "怒ったハチハチバンク",
+
+  "block.villagerunknown-villagercoin.ravager_bank": "ラヴェジャーバンク",
+
+  "block.villagerunknown-villagercoin.guardian_bank": "ガーディアンバンク",
+  "block.villagerunknown-villagercoin.elder_guardian_bank": "エルダーガーディアンガーディアンバンク",
+
+  "block.villagerunknown-villagercoin.hoglin_bank": "ホグリンバンク",
+  "block.villagerunknown-villagercoin.zoglin_bank": "ゾグリンバンク",
+
+  "block.villagerunknown-villagercoin.pufferfish_bank": "フグバンク",
+  "block.villagerunknown-villagercoin.slime_bank": "スライムバンク",
+  "block.villagerunknown-villagercoin.magma_cube_bank": "マグマキューブキューブバンク"
+
+}

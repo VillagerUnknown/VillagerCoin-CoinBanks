@@ -1,0 +1,78 @@
+{
+
+  "text.autoconfig.villagerunknown-coinbanks.title": "VillagerUnknown's Coin Banks for Villager Coin",
+
+  "block.villagerunknown-villagercoin.terracotta_coin_bank": "테라코타 동전 은행",
+  "block.villagerunknown-villagercoin.white_terracotta_coin_bank": "하얀색 테라코타 동전 은행",
+  "block.villagerunknown-villagercoin.orange_terracotta_coin_bank": "주황색 테라코타 동전 은행",
+  "block.villagerunknown-villagercoin.magenta_terracotta_coin_bank": "자홍색 테라코타 동전 은행",
+  "block.villagerunknown-villagercoin.light_blue_terracotta_coin_bank": "하늘색 파란색 테라코타 동전 은행",
+  "block.villagerunknown-villagercoin.yellow_terracotta_coin_bank": "노란색 테라코타 동전 은행",
+  "block.villagerunknown-villagercoin.lime_terracotta_coin_bank": "라임색 테라코타 동전 은행",
+  "block.villagerunknown-villagercoin.pink_terracotta_coin_bank": "분홍색 테라코타 동전 은행",
+  "block.villagerunknown-villagercoin.gray_terracotta_coin_bank": "회색 테라코타 동전 은행",
+  "block.villagerunknown-villagercoin.light_gray_terracotta_coin_bank": "밝은 회색 회색 테라코타 동전 은행",
+  "block.villagerunknown-villagercoin.cyan_terracotta_coin_bank": "청록색 테라코타 동전 은행",
+  "block.villagerunknown-villagercoin.purple_terracotta_coin_bank": "보라색 테라코타 동전 은행",
+  "block.villagerunknown-villagercoin.blue_terracotta_coin_bank": "파란색 테라코타 동전 은행",
+  "block.villagerunknown-villagercoin.brown_terracotta_coin_bank": "갈색 테라코타 동전 은행",
+  "block.villagerunknown-villagercoin.green_terracotta_coin_bank": "초록색 테라코타 동전 은행",
+  "block.villagerunknown-villagercoin.red_terracotta_coin_bank": "빨간색 테라코타 동전 은행",
+  "block.villagerunknown-villagercoin.black_terracotta_coin_bank": "검정색 테라코타 동전 은행",
+
+  "block.villagerunknown-villagercoin.copper_coin_bank": "구리 동전 은행",
+  "block.villagerunknown-villagercoin.iron_coin_bank": "철 동전 은행",
+  "block.villagerunknown-villagercoin.gold_coin_bank": "금 동전 은행",
+  "block.villagerunknown-villagercoin.diamond_coin_bank": "다이아몬드 동전 은행",
+  "block.villagerunknown-villagercoin.emerald_coin_bank": "에메랄드 동전 은행",
+  "block.villagerunknown-villagercoin.netherite_coin_bank": "네더라이트 동전 은행",
+
+  "block.villagerunknown-villagercoin.amethyst_coin_bank": "자수정 동전 은행",
+
+  "block.villagerunknown-villagercoin.obsidian_coin_bank": "흑요석 동전 은행",
+  "block.villagerunknown-villagercoin.crying_obsidian_coin_bank": "우는 흑요석 동전 은행",
+
+  "block.villagerunknown-villagercoin.cold_piggy_bank": "추운 피기 은행",
+  "block.villagerunknown-villagercoin.temperate_piggy_bank": "온화한 피기 은행",
+  "block.villagerunknown-villagercoin.warm_piggy_bank": "따뜻한 피기 은행",
+
+  "block.villagerunknown-villagercoin.piglin_bank": "피글린 은행",
+  "block.villagerunknown-villagercoin.zombified_piglin_bank": "좀비화된 피글린 피글린 은행",
+
+  "block.villagerunknown-villagercoin.white_sheep_bank": "하얀색 양 은행",
+  "block.villagerunknown-villagercoin.orange_sheep_bank": "주황색 양 은행",
+  "block.villagerunknown-villagercoin.magenta_sheep_bank": "자홍색 양 은행",
+  "block.villagerunknown-villagercoin.light_blue_sheep_bank": "하늘색 파란색 양 은행",
+  "block.villagerunknown-villagercoin.yellow_sheep_bank": "노란색 양 은행",
+  "block.villagerunknown-villagercoin.lime_sheep_bank": "라임색 양 은행",
+  "block.villagerunknown-villagercoin.pink_sheep_bank": "분홍색 양 은행",
+  "block.villagerunknown-villagercoin.gray_sheep_bank": "회색 양 은행",
+  "block.villagerunknown-villagercoin.light_gray_sheep_bank": "밝은 회색 회색 양 은행",
+  "block.villagerunknown-villagercoin.cyan_sheep_bank": "청록색 양 은행",
+  "block.villagerunknown-villagercoin.purple_sheep_bank": "보라색 양 은행",
+  "block.villagerunknown-villagercoin.blue_sheep_bank": "파란색 양 은행",
+  "block.villagerunknown-villagercoin.brown_sheep_bank": "갈색 양 은행",
+  "block.villagerunknown-villagercoin.green_sheep_bank": "초록색 양 은행",
+  "block.villagerunknown-villagercoin.red_sheep_bank": "빨간색 양 은행",
+  "block.villagerunknown-villagercoin.black_sheep_bank": "검정색 양 은행",
+
+  "block.villagerunknown-villagercoin.cow_bank": "소 은행",
+  "block.villagerunknown-villagercoin.red_mooshroom_bank": "빨간색 무시룸 은행",
+  "block.villagerunknown-villagercoin.brown_mooshroom_bank": "갈색 무시룸 은행",
+
+  "block.villagerunknown-villagercoin.bee_bank": "벌 은행",
+  "block.villagerunknown-villagercoin.angry_bee_bank": "화난 벌 벌 은행",
+
+  "block.villagerunknown-villagercoin.ravager_bank": "파괴자 은행",
+
+  "block.villagerunknown-villagercoin.guardian_bank": "가디언 은행",
+  "block.villagerunknown-villagercoin.elder_guardian_bank": "엘더 가디언 가디언 은행",
+
+  "block.villagerunknown-villagercoin.hoglin_bank": "호글린 은행",
+  "block.villagerunknown-villagercoin.zoglin_bank": "조글린 은행",
+
+  "block.villagerunknown-villagercoin.pufferfish_bank": "복어 은행",
+  "block.villagerunknown-villagercoin.slime_bank": "슬라임 은행",
+  "block.villagerunknown-villagercoin.magma_cube_bank": "마그마 큐브 큐브 은행"
+
+}

@@ -1,0 +1,78 @@
+{
+
+  "text.autoconfig.villagerunknown-coinbanks.title": "VillagerUnknown's Coin Banks for Villager Coin",
+
+  "block.villagerunknown-villagercoin.terracotta_coin_bank": "Банк монет: Terracotta",
+  "block.villagerunknown-villagercoin.white_terracotta_coin_bank": "Банк монет: Белая Terracotta",
+  "block.villagerunknown-villagercoin.orange_terracotta_coin_bank": "Банк монет: Оранжевая Terracotta",
+  "block.villagerunknown-villagercoin.magenta_terracotta_coin_bank": "Банк монет: Пурпурная Terracotta",
+  "block.villagerunknown-villagercoin.light_blue_terracotta_coin_bank": "Банк монет: Light Синяя Terracotta",
+  "block.villagerunknown-villagercoin.yellow_terracotta_coin_bank": "Банк монет: Желтая Terracotta",
+  "block.villagerunknown-villagercoin.lime_terracotta_coin_bank": "Банк монет: Лаймовая Terracotta",
+  "block.villagerunknown-villagercoin.pink_terracotta_coin_bank": "Банк монет: Розовая Terracotta",
+  "block.villagerunknown-villagercoin.gray_terracotta_coin_bank": "Банк монет: Серая Terracotta",
+  "block.villagerunknown-villagercoin.light_gray_terracotta_coin_bank": "Банк монет: Light Серая Terracotta",
+  "block.villagerunknown-villagercoin.cyan_terracotta_coin_bank": "Банк монет: Бирюзовая Terracotta",
+  "block.villagerunknown-villagercoin.purple_terracotta_coin_bank": "Банк монет: Фиолетовая Terracotta",
+  "block.villagerunknown-villagercoin.blue_terracotta_coin_bank": "Банк монет: Синяя Terracotta",
+  "block.villagerunknown-villagercoin.brown_terracotta_coin_bank": "Банк монет: Коричневая Terracotta",
+  "block.villagerunknown-villagercoin.green_terracotta_coin_bank": "Банк монет: Зеленая Terracotta",
+  "block.villagerunknown-villagercoin.red_terracotta_coin_bank": "Банк монет: Красная Terracotta",
+  "block.villagerunknown-villagercoin.black_terracotta_coin_bank": "Банк монет: Черная Terracotta",
+
+  "block.villagerunknown-villagercoin.copper_coin_bank": "Банк монет: Медь",
+  "block.villagerunknown-villagercoin.iron_coin_bank": "Банк монет: Железо",
+  "block.villagerunknown-villagercoin.gold_coin_bank": "Банк монет: Золото",
+  "block.villagerunknown-villagercoin.diamond_coin_bank": "Банк монет: Алмаз",
+  "block.villagerunknown-villagercoin.emerald_coin_bank": "Банк монет: Изумруд",
+  "block.villagerunknown-villagercoin.netherite_coin_bank": "Банк монет: Незерит",
+
+  "block.villagerunknown-villagercoin.amethyst_coin_bank": "Банк монет: Аметист",
+
+  "block.villagerunknown-villagercoin.obsidian_coin_bank": "Банк монет: Обсидиан",
+  "block.villagerunknown-villagercoin.crying_obsidian_coin_bank": "Банк монет: Crying Обсидиан",
+
+  "block.villagerunknown-villagercoin.cold_piggy_bank": "Банк: Cold Piggy",
+  "block.villagerunknown-villagercoin.temperate_piggy_bank": "Банк: Temperate Piggy",
+  "block.villagerunknown-villagercoin.warm_piggy_bank": "Банк: Warm Piggy",
+
+  "block.villagerunknown-villagercoin.piglin_bank": "Банк: Пиглин",
+  "block.villagerunknown-villagercoin.zombified_piglin_bank": "Банк: Zombified Пиглин",
+
+  "block.villagerunknown-villagercoin.white_sheep_bank": "Банк: Белая Sheep",
+  "block.villagerunknown-villagercoin.orange_sheep_bank": "Банк: Оранжевая Sheep",
+  "block.villagerunknown-villagercoin.magenta_sheep_bank": "Банк: Пурпурная Sheep",
+  "block.villagerunknown-villagercoin.light_blue_sheep_bank": "Банк: Light Синяя Sheep",
+  "block.villagerunknown-villagercoin.yellow_sheep_bank": "Банк: Желтая Sheep",
+  "block.villagerunknown-villagercoin.lime_sheep_bank": "Банк: Лаймовая Sheep",
+  "block.villagerunknown-villagercoin.pink_sheep_bank": "Банк: Розовая Sheep",
+  "block.villagerunknown-villagercoin.gray_sheep_bank": "Банк: Серая Sheep",
+  "block.villagerunknown-villagercoin.light_gray_sheep_bank": "Банк: Light Серая Sheep",
+  "block.villagerunknown-villagercoin.cyan_sheep_bank": "Банк: Бирюзовая Sheep",
+  "block.villagerunknown-villagercoin.purple_sheep_bank": "Банк: Фиолетовая Sheep",
+  "block.villagerunknown-villagercoin.blue_sheep_bank": "Банк: Синяя Sheep",
+  "block.villagerunknown-villagercoin.brown_sheep_bank": "Банк: Коричневая Sheep",
+  "block.villagerunknown-villagercoin.green_sheep_bank": "Банк: Зеленая Sheep",
+  "block.villagerunknown-villagercoin.red_sheep_bank": "Банк: Красная Sheep",
+  "block.villagerunknown-villagercoin.black_sheep_bank": "Банк: Черная Sheep",
+
+  "block.villagerunknown-villagercoin.cow_bank": "Банк: Корова",
+  "block.villagerunknown-villagercoin.red_mooshroom_bank": "Банк: Красная Mooshroom",
+  "block.villagerunknown-villagercoin.brown_mooshroom_bank": "Банк: Коричневая Mooshroom",
+
+  "block.villagerunknown-villagercoin.bee_bank": "Банк: Пчела",
+  "block.villagerunknown-villagercoin.angry_bee_bank": "Банк: Angry Пчела",
+
+  "block.villagerunknown-villagercoin.ravager_bank": "Банк: Разоритель",
+
+  "block.villagerunknown-villagercoin.guardian_bank": "Банк: Страж",
+  "block.villagerunknown-villagercoin.elder_guardian_bank": "Банк: Elder Страж",
+
+  "block.villagerunknown-villagercoin.hoglin_bank": "Банк: Хоглин",
+  "block.villagerunknown-villagercoin.zoglin_bank": "Банк: Зоглин",
+
+  "block.villagerunknown-villagercoin.pufferfish_bank": "Банк: Иглобрюх",
+  "block.villagerunknown-villagercoin.slime_bank": "Банк: Слизень",
+  "block.villagerunknown-villagercoin.magma_cube_bank": "Банк: Magma Cube"
+
+}
