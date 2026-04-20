@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:netherite_ingot"
-    },
-    "C": {
-      "tag": "villagerunknown-villagercoin:villager_coin"
-    }
+    "#": "minecraft:netherite_ingot",
+    "C": "#villagerunknown-villagercoin:villager_coin"
   },
   "pattern": [
     " # ",

@@ -11,8 +11,8 @@ import net.minecraft.particle.ParticleTypes;
 import net.minecraft.particle.SimpleParticleType;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.world.ServerWorld;
+import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
-import net.minecraft.util.ItemActionResult;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
@@ -34,10 +34,10 @@ public class JarCoinBankBlock extends CoinBankBlock {
 	}
 	
 	@Override
-	protected ItemActionResult onUseWithItem(ItemStack stack, BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
-		ItemActionResult result = super.onUseWithItem(stack, state, world, pos, player, hand, hit);
+	protected ActionResult onUseWithItem(ItemStack stack, BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
+		ActionResult result = super.onUseWithItem(stack, state, world, pos, player, hand, hit);
 		
-		if( result.equals( ItemActionResult.CONSUME ) ) {
+		if( result.equals( ActionResult.CONSUME ) ) {
 			MinecraftServer server = world.getServer();
 			if( null != server ) {
 				ServerWorld serverWorld = server.getWorld(world.getRegistryKey());

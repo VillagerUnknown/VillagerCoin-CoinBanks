@@ -2,15 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:brick"
-    },
-    "D": {
-      "item": "minecraft:warped_fungus"
-    },
-    "C": {
-      "tag": "villagerunknown-villagercoin:villager_coin"
-    }
+    "#": "minecraft:brick",
+    "D": "minecraft:warped_fungus",
+    "C": "#villagerunknown-villagercoin:villager_coin"
   },
   "pattern": [
     "D#D",

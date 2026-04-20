@@ -4,6 +4,7 @@ import com.google.common.collect.ImmutableMap;
 import me.villagerunknown.villagercoin.block.CoinBankBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.HorizontalFacingBlock;
 import net.minecraft.block.ShapeContext;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.fluid.FluidState;
@@ -15,13 +16,13 @@ import net.minecraft.particle.SimpleParticleType;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.state.StateManager;
-import net.minecraft.state.property.DirectionProperty;
+import net.minecraft.state.property.EnumProperty;
 import net.minecraft.state.property.Properties;
 import net.minecraft.state.property.Property;
+import net.minecraft.util.ActionResult;
 import net.minecraft.util.BlockMirror;
 import net.minecraft.util.BlockRotation;
 import net.minecraft.util.Hand;
-import net.minecraft.util.ItemActionResult;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
@@ -39,7 +40,7 @@ public class CowBankBlock extends CoinBankBlock {
 	protected static final VoxelShape SHAPE_SOUTH = Block.createCuboidShape(1.0, 0.0, 5.0, 15.0, 8.0, 11.0);
 	protected static final VoxelShape SHAPE_WEST = Block.createCuboidShape(5.0, 0.0, 1.0, 11.0, 8.0, 15.0);
 	
-	public static final DirectionProperty FACING;
+	public static final EnumProperty<Direction> FACING = HorizontalFacingBlock.FACING;
 	
 	public CowBankBlock(Settings settings) {
 		super(
@@ -49,10 +50,10 @@ public class CowBankBlock extends CoinBankBlock {
 	}
 	
 	@Override
-	protected ItemActionResult onUseWithItem(ItemStack stack, BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
-		ItemActionResult result = super.onUseWithItem(stack, state, world, pos, player, hand, hit);
+	protected ActionResult onUseWithItem(ItemStack stack, BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
+		ActionResult result = super.onUseWithItem(stack, state, world, pos, player, hand, hit);
 		
-		if( result.equals( ItemActionResult.CONSUME ) ) {
+		if( result.equals( ActionResult.CONSUME ) ) {
 			MinecraftServer server = world.getServer();
 			if( null != server ) {
 				ServerWorld serverWorld = server.getWorld(world.getRegistryKey());
@@ -113,10 +114,6 @@ public class CowBankBlock extends CoinBankBlock {
 	
 	protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
 		builder.add(new Property[]{FACING,WATERLOGGED});
-	}
-	
-	static {
-		FACING = Properties.HORIZONTAL_FACING;
 	}
 	
 }

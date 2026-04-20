@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:amethyst_shard"
-    },
-    "C": {
-      "tag": "villagerunknown-villagercoin:villager_coin"
-    }
+    "#": "minecraft:amethyst_shard",
+    "C": "#villagerunknown-villagercoin:villager_coin"
   },
   "pattern": [
     " # ",

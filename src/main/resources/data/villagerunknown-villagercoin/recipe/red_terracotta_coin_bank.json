@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:red_terracotta"
-    },
-    "C": {
-      "tag": "villagerunknown-villagercoin:villager_coin"
-    }
+    "#": "minecraft:red_terracotta",
+    "C": "#villagerunknown-villagercoin:villager_coin"
   },
   "pattern": [
     " # ",

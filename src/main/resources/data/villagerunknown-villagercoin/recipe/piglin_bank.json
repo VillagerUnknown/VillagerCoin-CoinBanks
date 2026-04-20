@@ -2,15 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:gold_ingot"
-    },
-    "D": {
-      "item": "minecraft:leather"
-    },
-    "C": {
-      "tag": "villagerunknown-villagercoin:villager_coin"
-    }
+    "#": "minecraft:gold_ingot",
+    "D": "minecraft:leather",
+    "C": "#villagerunknown-villagercoin:villager_coin"
   },
   "pattern": [
     "D#D",

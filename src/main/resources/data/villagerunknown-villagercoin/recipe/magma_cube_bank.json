@@ -2,15 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:brick"
-    },
-    "D": {
-      "item": "minecraft:magma_cream"
-    },
-    "C": {
-      "tag": "villagerunknown-villagercoin:villager_coin"
-    }
+    "#": "minecraft:brick",
+    "D": "minecraft:magma_cream",
+    "C": "#villagerunknown-villagercoin:villager_coin"
   },
   "pattern": [
     "D#D",
