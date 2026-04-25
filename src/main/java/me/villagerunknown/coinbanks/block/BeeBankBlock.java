@@ -69,7 +69,6 @@ public class BeeBankBlock extends CoinBankBlock {
 		return result;
 	}
 	
-	@Override
 	protected ImmutableMap<BlockState, VoxelShape> getShapesForStates(Function<BlockState, VoxelShape> stateToShape) {
 		HashMap<BlockState, VoxelShape> shapes = new HashMap<>();
 		
