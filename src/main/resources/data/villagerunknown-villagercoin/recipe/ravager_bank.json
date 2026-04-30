@@ -4,7 +4,7 @@
   "key": {
     "#": "minecraft:brick",
     "D": "minecraft:leather",
-    "B": "minecraft:chain",
+    "B": "minecraft:iron_chain",
     "C": "#villagerunknown-villagercoin:villager_coin"
   },
   "pattern": [
