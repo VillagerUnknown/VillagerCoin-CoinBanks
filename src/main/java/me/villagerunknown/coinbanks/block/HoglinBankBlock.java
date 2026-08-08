@@ -2,69 +2,67 @@ package me.villagerunknown.coinbanks.block;
 
 import com.google.common.collect.ImmutableMap;
 import me.villagerunknown.villagercoin.block.CoinBankBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.HorizontalFacingBlock;
-import net.minecraft.block.ShapeContext;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.fluid.FluidState;
-import net.minecraft.fluid.Fluids;
-import net.minecraft.item.ItemPlacementContext;
-import net.minecraft.item.ItemStack;
-import net.minecraft.particle.ParticleTypes;
-import net.minecraft.particle.SimpleParticleType;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
+import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.server.MinecraftServer;
-import net.minecraft.server.world.ServerWorld;
-import net.minecraft.state.StateManager;
-import net.minecraft.state.property.EnumProperty;
-import net.minecraft.state.property.Properties;
-import net.minecraft.state.property.Property;
-import net.minecraft.util.ActionResult;
-import net.minecraft.util.BlockMirror;
-import net.minecraft.util.BlockRotation;
-import net.minecraft.util.Hand;
-import net.minecraft.util.hit.BlockHitResult;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.Direction;
-import net.minecraft.util.shape.VoxelShape;
-import net.minecraft.world.BlockView;
-import net.minecraft.world.World;
-
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.HorizontalDirectionalBlock;
+import net.minecraft.world.level.block.Mirror;
+import net.minecraft.world.level.block.Rotation;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.world.level.block.state.properties.EnumProperty;
+import net.minecraft.world.level.block.state.properties.Property;
+import net.minecraft.world.level.material.FluidState;
+import net.minecraft.world.level.material.Fluids;
+import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.VoxelShape;
 import java.util.HashMap;
 import java.util.function.Function;
 
 public class HoglinBankBlock extends CoinBankBlock {
 	
-	protected static final VoxelShape SHAPE_NORTH = Block.createCuboidShape(1.0, 0.0, 4.0, 15.0, 8.0, 12.0);
-	protected static final VoxelShape SHAPE_EAST = Block.createCuboidShape(4.0, 0.0, 1.0, 12.0, 8.0, 15.0);
-	protected static final VoxelShape SHAPE_SOUTH = Block.createCuboidShape(1.0, 0.0, 4.0, 15.0, 8.0, 12.0);
-	protected static final VoxelShape SHAPE_WEST = Block.createCuboidShape(4.0, 0.0, 1.0, 12.0, 8.0, 15.0);
+	protected static final VoxelShape SHAPE_NORTH = Block.box(1.0, 0.0, 4.0, 15.0, 8.0, 12.0);
+	protected static final VoxelShape SHAPE_EAST = Block.box(4.0, 0.0, 1.0, 12.0, 8.0, 15.0);
+	protected static final VoxelShape SHAPE_SOUTH = Block.box(1.0, 0.0, 4.0, 15.0, 8.0, 12.0);
+	protected static final VoxelShape SHAPE_WEST = Block.box(4.0, 0.0, 1.0, 12.0, 8.0, 15.0);
 	
-	public static final EnumProperty<Direction> FACING = HorizontalFacingBlock.FACING;
+	public static final EnumProperty<Direction> FACING = HorizontalDirectionalBlock.FACING;
 	
-	public HoglinBankBlock(Settings settings) {
+	public HoglinBankBlock(Properties settings) {
 		super(
 				settings
-						.nonOpaque()
+						.noOcclusion()
 		);
 	}
 	
 	@Override
-	protected ActionResult onUseWithItem(ItemStack stack, BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
-		ActionResult result = super.onUseWithItem(stack, state, world, pos, player, hand, hit);
+	protected InteractionResult useItemOn(ItemStack stack, BlockState state, Level world, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit) {
+		InteractionResult result = super.useItemOn(stack, state, world, pos, player, hand, hit);
 		
-		if( result.equals( ActionResult.CONSUME ) ) {
+		if( result.equals( InteractionResult.CONSUME ) ) {
 			MinecraftServer server = world.getServer();
 			if( null != server ) {
-				ServerWorld serverWorld = server.getWorld(world.getRegistryKey());
+				ServerLevel serverWorld = server.getLevel(world.dimension());
 				if( null != serverWorld ) {
 					SimpleParticleType particleType = ParticleTypes.DUST_PLUME;
 					
-					if( state.get(WATERLOGGED) ) {
+					if( state.getValue(WATERLOGGED) ) {
 						particleType = ParticleTypes.BUBBLE;
 					} // if
 					
-					serverWorld.spawnParticles(particleType, (double) pos.getX() + (double) 0.5F, (double) pos.getY() + 0.6, (double) pos.getZ() + (double) 0.5F, 7, (double) 0.0F, (double) 0.0F, (double) 0.0F, (double) 0.0F);
+					serverWorld.sendParticles(particleType, (double) pos.getX() + (double) 0.5F, (double) pos.getY() + 0.6, (double) pos.getZ() + (double) 0.5F, 7, (double) 0.0F, (double) 0.0F, (double) 0.0F, (double) 0.0F);
 				} // if
 			} // if
 		} // if
@@ -75,17 +73,17 @@ public class HoglinBankBlock extends CoinBankBlock {
 	protected ImmutableMap<BlockState, VoxelShape> getShapesForStates(Function<BlockState, VoxelShape> stateToShape) {
 		HashMap<BlockState, VoxelShape> shapes = new HashMap<>();
 		
-		shapes.put( stateManager.getDefaultState().with(FACING, Direction.NORTH), SHAPE_NORTH );
-		shapes.put( stateManager.getDefaultState().with(FACING, Direction.EAST), SHAPE_EAST );
-		shapes.put( stateManager.getDefaultState().with(FACING, Direction.SOUTH), SHAPE_SOUTH );
-		shapes.put( stateManager.getDefaultState().with(FACING, Direction.WEST), SHAPE_WEST );
+		shapes.put( stateDefinition.any().setValue(FACING, Direction.NORTH), SHAPE_NORTH );
+		shapes.put( stateDefinition.any().setValue(FACING, Direction.EAST), SHAPE_EAST );
+		shapes.put( stateDefinition.any().setValue(FACING, Direction.SOUTH), SHAPE_SOUTH );
+		shapes.put( stateDefinition.any().setValue(FACING, Direction.WEST), SHAPE_WEST );
 		
 		return ImmutableMap.<BlockState, VoxelShape>builder().putAll( shapes ).build();
 	}
 	
-	protected VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
-		if( state.contains( FACING ) ) {
-			VoxelShape shape = switch (state.get(FACING).toString()) {
+	protected VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		if( state.hasProperty( FACING ) ) {
+			VoxelShape shape = switch (state.getValue(FACING).toString()) {
 				case "south" -> SHAPE_SOUTH;
 				case "north" -> SHAPE_NORTH;
 				case "west" -> SHAPE_WEST;
@@ -97,21 +95,21 @@ public class HoglinBankBlock extends CoinBankBlock {
 	}
 	
 	@Override
-	protected BlockState rotate(BlockState state, BlockRotation rotation) {
-		return state.with(FACING, rotation.rotate(state.get(FACING)));
+	protected BlockState rotate(BlockState state, Rotation rotation) {
+		return state.setValue(FACING, rotation.rotate(state.getValue(FACING)));
 	}
 	
 	@Override
-	protected BlockState mirror(BlockState state, BlockMirror mirror) {
-		return state.rotate(mirror.getRotation(state.get(FACING)));
+	protected BlockState mirror(BlockState state, Mirror mirror) {
+		return state.rotate(mirror.getRotation(state.getValue(FACING)));
 	}
 	
-	public BlockState getPlacementState(ItemPlacementContext ctx) {
-		FluidState fluidState = ctx.getWorld().getFluidState(ctx.getBlockPos());
-		return (BlockState)this.getDefaultState().with(FACING, ctx.getHorizontalPlayerFacing()).with(WATERLOGGED, Boolean.valueOf(fluidState.getFluid() == Fluids.WATER));
+	public BlockState getStateForPlacement(BlockPlaceContext ctx) {
+		FluidState fluidState = ctx.getLevel().getFluidState(ctx.getClickedPos());
+		return (BlockState)this.defaultBlockState().setValue(FACING, ctx.getHorizontalDirection()).setValue(WATERLOGGED, Boolean.valueOf(fluidState.getType() == Fluids.WATER));
 	}
 	
-	protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
+	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
 		builder.add(new Property[]{FACING,WATERLOGGED});
 	}
 	

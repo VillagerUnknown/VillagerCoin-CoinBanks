@@ -1,7 +1,7 @@
 package me.villagerunknown.coinbanks.block;
 
 import me.villagerunknown.coinbanks.feature.CoinBankBlocksRegistrationFeature;
-import net.minecraft.block.Block;
+import net.minecraft.world.level.block.Block;
 
 public class CoinBankBlocks {
 	
